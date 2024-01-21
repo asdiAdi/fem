@@ -1,0 +1,26 @@
+{
+  "name": "limbo-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/limbo-e2e/src",
+  "targets": {
+    "e2e": {
+      "executor": "@nx/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/limbo-e2e/cypress.config.ts",
+        "testingType": "e2e",
+        "devServerTarget": "limbo:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "limbo:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["limbo"]
+}
