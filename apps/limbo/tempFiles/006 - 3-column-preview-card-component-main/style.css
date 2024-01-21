@@ -1,0 +1,101 @@
+:root {
+  /* Primary */
+
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  /* Neutral */
+  /* paragraphs */
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  /* background, headings, buttons */
+  --very-light-gray: hsl(0, 0%, 95%);
+}
+/* color classes */
+.sedan {
+  color: var(--bright-orange);
+  background-color: var(--bright-orange);
+}
+.suv {
+  color: var(--dark-cyan);
+  background-color: var(--dark-cyan);
+}
+.luxury {
+  color: var(--very-dark-cyan);
+  background-color: var(--very-dark-cyan);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--very-light-gray);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 327px;
+  height: 1326px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.car-type {
+  padding: 3rem;
+}
+.car-type > img {
+  margin-bottom: 2rem;
+}
+.car-type > h1 {
+  margin-bottom: 1.5rem;
+  font: 700 2.5rem "Big Shoulders Display", sans-serif;
+  text-transform: uppercase;
+  color: var(--very-light-gray);
+}
+.car-type > p {
+  margin-bottom: 1.6rem;
+  font: 400 0.92rem/1.7 "Lexend Deca", sans-serif;
+  color: var(--transparent-white);
+}
+
+.car-type > button {
+  width: 146px;
+  height: 48px;
+  font: 400 0.92rem "Lexend Deca", sans-serif;
+  color: inherit;
+  background-color: var(--very-light-gray);
+  border: 2px solid var(--very-light-gray);
+  border-radius: 24px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.car-type > button:hover {
+  color: var(--very-light-gray);
+  background-color: inherit;
+}
+@media only screen and (min-width: 90rem) {
+  .card {
+    max-width: 920px;
+    height: 500px;
+    grid-template-rows: unset;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .car-type > p {
+    margin-right: 0.4rem;
+    margin-bottom: 5.25rem;
+  }
+}

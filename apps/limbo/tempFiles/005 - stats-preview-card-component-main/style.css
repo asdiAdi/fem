@@ -1,0 +1,125 @@
+:root {
+  /* Primary */
+  /* main background */
+  --very-dark-blue: hsl(233, 47%, 7%);
+  /* card background */
+  --dark-desaturated-blue: hsl(244, 38%, 16%);
+  /* accent */
+  --soft-violet: hsl(277, 64%, 61%);
+
+  /* Neutral */
+  /* main heading, stats */
+  --white: hsl(0, 0%, 100%);
+  /* main paragraph */
+  --slightly-transparent-white-p: hsla(0, 0%, 100%, 0.75);
+  /* stat headings */
+  --slightly-transparent-white-h: hsla(0, 0%, 100%, 0.6);
+}
+/* color classes */
+.white {
+  color: var(--white);
+}
+.white-transparent-p {
+  color: var(--slightly-transparent-white-p);
+}
+.white-transparent-h {
+  color: var(--slightly-transparent-white-h);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  /* height: 100vh; */
+  background-color: var(--very-dark-blue);
+}
+main {
+  width: 100%;
+}
+
+.card {
+  margin: 4.5rem auto;
+  width: 327px;
+  background-color: var(--dark-desaturated-blue);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.accent {
+  background: var(--soft-violet);
+  margin-bottom: 2.25rem;
+}
+.accent picture img {
+  width: 100%;
+  display: block;
+  mix-blend-mode: multiply;
+  opacity: 0.75;
+}
+
+.info {
+  margin: 0rem 1.5rem;
+  text-align: center;
+}
+h1 {
+  font: 700 1.75rem "Inter", sans-serif;
+  margin-bottom: 1rem;
+}
+em {
+  font-style: unset;
+  color: var(--soft-violet);
+}
+p {
+  font: 400 0.9rem/1.7 "Inter", sans-serif;
+  margin: 0 1rem 2.4rem 1rem;
+}
+.stats {
+  list-style: none;
+}
+.stats li span {
+  display: block;
+  text-transform: uppercase;
+  font: 400 0.8rem "Lexend Deca", sans-serif;
+  margin-bottom: 1.75rem;
+}
+.stats li span:first-child {
+  font: 700 1.5rem "Inter", sans-serif;
+  margin-bottom: 0.5rem;
+}
+@media only screen and (min-width: 90rem) {
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 1110px;
+    height: 446px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .accent,
+  .accent picture img {
+    width: auto;
+    height: 100%;
+    margin: 0;
+  }
+  .info {
+    margin: 4.5rem 6rem 0rem 4.5rem;
+    text-align: left;
+  }
+  h1 {
+    font-size: 2.25rem;
+    margin-bottom: 1.6rem;
+  }
+  p {
+    margin: 0rem 3rem 4.25rem 0rem;
+    font-size: 0.94rem;
+  }
+  .stats {
+    columns: 3;
+  }
+}
