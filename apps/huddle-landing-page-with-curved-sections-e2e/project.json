@@ -1,0 +1,30 @@
+{
+  "name": "huddle-landing-page-with-curved-sections-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/huddle-landing-page-with-curved-sections-e2e/src",
+  "targets": {
+    "e2e": {
+      "executor": "@nx/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/huddle-landing-page-with-curved-sections-e2e/cypress.config.ts",
+        "testingType": "e2e",
+        "devServerTarget": "huddle-landing-page-with-curved-sections:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "huddle-landing-page-with-curved-sections:serve:production"
+        },
+        "ci": {
+          "devServerTarget": "huddle-landing-page-with-curved-sections:serve-static"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    }
+  },
+  "implicitDependencies": ["huddle-landing-page-with-curved-sections"],
+  "tags": []
+}
