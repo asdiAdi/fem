@@ -1,1 +1,8 @@
 /* Your styles goes here. */
+@import '../styles/variables';
+
+.test {
+  width: 200px;
+  height: 200px;
+  background-color: $light-red;
+}
