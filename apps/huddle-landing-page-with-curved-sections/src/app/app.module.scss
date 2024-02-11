@@ -1,8 +1,58 @@
-/* Your styles goes here. */
-@import '../styles/variables';
+@use '../styles/variables' as v;
+@use '../styles/mixins' as m;
 
 .test {
-  width: 200px;
-  height: 200px;
-  background-color: $light-red;
+  margin: auto;
+  width: 375px;
+  background-color: white;
+  //height: 200px;
+}
+
+.nav {
+  height: 24px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  height: 24px;
+}
+
+.nav-button {
+  @include m.reset-button;
+  width: 80px;
+  height: 24px;
+  color: v.$pink;
+  font-size: 0.6rem;
+  border: 1px solid v.$pink;
+  border-radius: 20px;
+  box-shadow: 0 0 5px v.$light-pink;
+
+  &:hover {
+    color: v.$light-pink;
+    border: 1px solid v.$light-pink;
+  }
+}
+
+.h1 {
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  margin: 0;
+}
+
+.body {
+  padding: 40px;
+  text-align: center;
+  font-family: Open-sans, sans-serif;
+  color: v.$very-dark-cyan;
+}
+
+.body-description {
+  margin-top: 24px;
+}
+
+.body-button {
 }
