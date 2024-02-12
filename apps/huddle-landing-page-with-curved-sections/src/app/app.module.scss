@@ -26,7 +26,7 @@
   color: v.$pink;
   font-size: 0.6rem;
   border: 1px solid v.$pink;
-  border-radius: 20px;
+  border-radius: 12px;
   box-shadow: 0 0 5px v.$light-pink;
 
   &:hover {
@@ -46,7 +46,6 @@
 .body {
   padding: 40px;
   text-align: center;
-  font-family: Open-sans, sans-serif;
   color: v.$very-dark-cyan;
 }
 
@@ -54,5 +53,19 @@
   margin-top: 24px;
 }
 
-.body-button {
+.start-button {
+  @include m.reset-button;
+  width: 200px;
+  height: 40px;
+  margin-top: 48px;
+  color: white;
+  background-color: v.$pink;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 18px;
+  border-radius: 20px;
+  box-shadow: 0 3px 7px v.$very-dark-cyan-shadow;
+  &:hover {
+    background-color: v.$light-pink;
+  }
 }
