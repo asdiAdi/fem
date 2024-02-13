@@ -27,9 +27,13 @@ export function App() {
 
         <button className={styles['start-button']}>Get Started for Free</button>
 
-        <img src={screenMockups} alt="screen-mockups" />
+        <img
+          src={screenMockups}
+          className={styles['img-mockup']}
+          alt="screen-mockups"
+        />
 
-        <ul>
+        <ul className={styles['list-metrics']}>
           <li>
             <img src={iconCommunities} alt="icon-communities" />
             <span>1.4k+</span>

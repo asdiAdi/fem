@@ -16,7 +16,7 @@
 }
 
 .nav-logo {
-  height: 24px;
+  height: inherit;
 }
 
 .nav-button {
@@ -28,6 +28,8 @@
   border: 1px solid v.$pink;
   border-radius: 12px;
   box-shadow: 0 0 5px v.$light-pink;
+  transition: color 0.5s, border 0.5s;
+  cursor: pointer;
 
   &:hover {
     color: v.$light-pink;
@@ -65,7 +67,33 @@
   line-height: 18px;
   border-radius: 20px;
   box-shadow: 0 3px 7px v.$very-dark-cyan-shadow;
+  transition: background-color 0.5s;
+  cursor: pointer;
+
   &:hover {
     background-color: v.$light-pink;
+  }
+}
+
+.img-mockup {
+  margin-top: 104px;
+  width: 100%;
+}
+
+.list-metrics {
+  list-style: none;
+  li {
+    img {
+    }
+
+    span {
+      display: block;
+
+      & :first-of-type {
+        font-family: Open-sans, sans-serif;
+        font-size: 3.8rem;
+        font-weight: bold;
+      }
+    }
   }
 }
