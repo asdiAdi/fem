@@ -4,25 +4,26 @@
 .test {
   margin: auto;
   width: 375px;
+  display: flow-root;
+  //padding-top: 24px;
   background-color: white;
-  //height: 200px;
 }
 
 .nav {
   height: 24px;
-  padding: 24px;
+  margin: 24px;
   display: flex;
   justify-content: space-between;
 }
 
 .nav-logo {
-  height: inherit;
+  //height: inherit;
 }
 
 .nav-button {
   @include m.reset-button;
   width: 80px;
-  height: 24px;
+  //height: 24px;
   color: v.$pink;
   font-size: 0.6rem;
   border: 1px solid v.$pink;
@@ -37,7 +38,7 @@
   }
 }
 
-.h1 {
+.body-title {
   font-family: Poppins, sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
@@ -53,6 +54,7 @@
 
 .body-description {
   margin-top: 24px;
+  line-height: 1.313rem;
 }
 
 .start-button {

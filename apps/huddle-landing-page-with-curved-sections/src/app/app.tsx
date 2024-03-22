@@ -16,7 +16,7 @@ export function App() {
       </nav>
 
       <div className={styles['body']}>
-        <h1 className={styles['h1']}>
+        <h1 className={styles['body-title']}>
           Build The Community Your Fans Will Love
         </h1>
         <p className={styles['body-description']}>
