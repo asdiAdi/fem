@@ -1,6 +1,6 @@
-# Frontend Mentor - Blog preview card solution
+# Frontend Mentor - Social links profile solution
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-[![](./src/assets/screenshot.png)](https://cta-blog-preview-card.vercel.app/)
+[![](./src/assets/screenshot.png)](https://cta-social-links-profile.vercel.app/)
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/asdiAdi/portfolio/tree/main/apps/blog-preview-card)
-- Live Site URL: [Vercel](https://cta-blog-preview-card.vercel.app/)
+- Solution URL: [GitHub](https://github.com/asdiAdi/portfolio/tree/main/apps/social-links-profile)
+- Live Site URL: [Vercel](https://cta-social-links-profile.vercel.app/)
 
 ## My process
 
@@ -42,7 +42,7 @@ Users should be able to:
 - [Jest](https://jestjs.io/) - Testing Framework
 
 ### What I learned
-@mixin rule from scss. This makes it easier to make classes which have the same properties.
+getAllByRole from testing with jest. It returns an array of matched html elements.
 
 ## Author
 

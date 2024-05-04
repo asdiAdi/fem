@@ -1,0 +1,86 @@
+@use '../styles/variables' as v;
+
+@mixin text($size: 1rem, $weight: 500, $color: v.$white) {
+  font-family: Inter, sans-serif;
+  font-size: $size;
+  font-weight: $weight;
+  line-height: 1.5;
+  color: $color;
+}
+
+.card {
+  $spacing: 24px;
+
+  width: 327px;
+  height: min-content;
+  padding: 24px;
+
+  background-color: v.$dark-grey;
+  border-radius: 12px;
+
+  &-avatar {
+    height: min-content;
+    width: 100%;
+    margin-bottom: $spacing;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 88px;
+      display: block;
+      border-radius: 50%;
+    }
+  }
+
+  &-user-info {
+    width: 100%;
+    height: min-content;
+    margin-bottom: $spacing;
+    text-align: center;
+
+    h1 {
+      @include text(1.5rem, 600);
+      margin-bottom: 4px;
+    }
+
+    h2 {
+      @include text(0.875rem, 700, v.$green);
+    }
+  }
+
+  &-bio {
+    @include text(0.875rem);
+    text-align: center;
+    margin-bottom: $spacing;
+  }
+
+  &-buttons {
+    display: grid;
+    row-gap: 16px;
+
+    button {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      border: none;
+      cursor: pointer;
+      border-radius: 8px;
+
+      background-color: v.$grey;
+      @include text(0.875rem, 700);
+
+      &:hover {
+        color: v.$grey;
+        background-color: v.$green;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: v.$desktop) {
+  .card {
+    width: 384px;
+    padding: 40px;
+  }
+}
