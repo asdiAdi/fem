@@ -8,8 +8,8 @@ describe('App', () => {
     expect(baseElement).toBeTruthy();
   });
 
-  it('should have a greeting as the title', () => {
+  it('should have a main heading', () => {
     const { getByText } = render(<App />);
-    expect(getByText(/Welcome blog-preview-card/gi)).toBeTruthy();
+    expect(getByText(/HTML & CSS foundations/gi)).toBeTruthy();
   });
 });
