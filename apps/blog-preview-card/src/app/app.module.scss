@@ -1,0 +1,101 @@
+@use '../styles/variables' as v;
+
+@mixin text($size: 1rem, $weight: 500) {
+  font-family: Figtree, sans-serif;
+  font-size: $size;
+  font-weight: $weight;
+  line-height: 1.5;
+}
+
+.card {
+  width: 327px;
+  height: min-content;
+  padding: 24px;
+  background-color: v.$white;
+
+  border-radius: 20px;
+  border: 1px solid v.$black;
+  box-shadow: v.$black 8px 8px 0 0;
+
+  &-img {
+    width: 100%;
+    margin-bottom: 24px;
+    display: block;
+    border-radius: 10px;
+  }
+
+  //content
+  $spacing: 12px;
+  &-category {
+    width: min-content;
+    height: min-content;
+    padding: 4px 12px;
+    margin-bottom: $spacing;
+    background-color: v.$yellow;
+    border-radius: 4px;
+
+    span {
+      @include text(0.75rem, 800);
+    }
+  }
+
+  &-publish-date {
+    @include text(0.75rem);
+    margin-bottom: $spacing;
+  }
+
+  &-header {
+    @include text(1.25rem, 800);
+    margin-bottom: $spacing;
+    cursor: pointer;
+
+    &:hover {
+      color: v.$yellow;
+    }
+  }
+
+  &-description {
+    @include text(0.875rem);
+    color: v.$grey;
+    margin-bottom: calc($spacing + 12px);
+  }
+
+  // author
+  &-author {
+    width: max-content;
+    height: min-content;
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 32px;
+      display: block;
+      border-radius: 50%;
+      margin-right: 12px;
+    }
+
+    span {
+      @include text(0.875rem, 800);
+    }
+  }
+}
+
+@media screen and (min-width: v.$desktop) {
+  .card {
+    width: 384px;
+
+    &-category,
+    &-publish-date,
+    &-author {
+      font-size: 0.875rem;
+    }
+
+    &-header {
+      font-size: 1.5rem;
+    }
+
+    &-description {
+      font-size: 1rem;
+    }
+  }
+}
