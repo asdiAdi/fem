@@ -43,6 +43,11 @@
       "cache": true,
       "dependsOn": ["^build"],
       "inputs": ["production", "^production"]
+    },
+    "@nx/webpack:webpack": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
     }
   },
   "namedInputs": {
@@ -83,6 +88,12 @@
         "style": "scss",
         "linter": "eslint"
       }
+    },
+    "@nx/web:application": {
+      "style": "scss",
+      "linter": "eslint",
+      "unitTestRunner": "jest",
+      "e2eTestRunner": "none"
     }
   },
   "nxCloudAccessToken": "NTRjNjhmYzYtY2FiYS00NmNlLTk3MjEtMDI0ZjFiZGM0OTMzfHJlYWQtd3JpdGU="
