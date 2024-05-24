@@ -1,7 +1,7 @@
 /**
  * O(log(n))
  * @desc Returns the index of the searched value
- * @param {Array<number | string>} arr Array of sorted number | string Data
+ * @param {Array<string> | Array<number>} arr Array of sorted number | string Data
  * @param {number | string} search Data of type number | string to search
  * @returns  The index of the searched value or -1 if it does not exist on the array
  */
@@ -33,5 +33,3 @@ export function binaryArraySearch(
 
   return -1;
 }
-
-binaryArraySearch(['1'], '1');
