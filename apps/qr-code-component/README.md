@@ -36,7 +36,7 @@ I built this website inside a monorepo to contain all Frontend Mentor challenges
 
 ### What I learned
 I learned to deploy a monorepo website in Vercel. It is as easy as deploying a single website. You just have to specify the build command and the directory of the build. 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+If you want th writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 I also learned the basics of Jest for 
 
 ## Author
