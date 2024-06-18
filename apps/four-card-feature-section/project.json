@@ -1,0 +1,67 @@
+{
+  "name": "four-card-feature-section",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/four-card-feature-section/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/apps/four-card-feature-section"
+      },
+      "configurations": {
+        "development": {
+          "mode": "development"
+        },
+        "production": {
+          "mode": "production"
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/vite:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "four-card-feature-section:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "four-card-feature-section:build:development",
+          "hmr": true
+        },
+        "production": {
+          "buildTarget": "four-card-feature-section:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "preview": {
+      "executor": "@nx/vite:preview-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "four-card-feature-section:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "four-card-feature-section:build:development"
+        },
+        "production": {
+          "buildTarget": "four-card-feature-section:build:production"
+        }
+      }
+    },
+    "test": {
+      "executor": "@nx/vite:test",
+      "outputs": ["{options.reportsDirectory}"],
+      "options": {
+        "reportsDirectory": "../../coverage/apps/four-card-feature-section"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}
