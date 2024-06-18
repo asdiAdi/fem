@@ -1,0 +1,67 @@
+{
+  "name": "testimonials-grid-section",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/testimonials-grid-section/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/apps/testimonials-grid-section"
+      },
+      "configurations": {
+        "development": {
+          "mode": "development"
+        },
+        "production": {
+          "mode": "production"
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/vite:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "testimonials-grid-section:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "testimonials-grid-section:build:development",
+          "hmr": true
+        },
+        "production": {
+          "buildTarget": "testimonials-grid-section:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "preview": {
+      "executor": "@nx/vite:preview-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "testimonials-grid-section:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "testimonials-grid-section:build:development"
+        },
+        "production": {
+          "buildTarget": "testimonials-grid-section:build:production"
+        }
+      }
+    },
+    "test": {
+      "executor": "@nx/vite:test",
+      "outputs": ["{options.reportsDirectory}"],
+      "options": {
+        "reportsDirectory": "../../coverage/apps/testimonials-grid-section"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}
