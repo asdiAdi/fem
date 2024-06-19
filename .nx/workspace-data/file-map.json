@@ -1,0 +1,1041 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.3.0",
+  "deps": {
+    "@nx/next": "19.3.0",
+    "@swc/helpers": "0.5.11",
+    "classnames": "^2.5.1",
+    "next": "14.2.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tslib": "^2.3.0",
+    "@nx/cypress": "19.3.0",
+    "@nx/eslint": "19.3.0",
+    "@nx/eslint-plugin": "19.3.0",
+    "@nx/jest": "19.3.0",
+    "@nx/js": "19.3.0",
+    "@nx/react": "19.3.0",
+    "@nx/vite": "19.3.0",
+    "@nx/web": "19.3.0",
+    "@nx/webpack": "19.3.0",
+    "@nx/workspace": "19.3.0",
+    "@swc-node/register": "1.9.2",
+    "@swc/cli": "0.3.12",
+    "@swc/core": "1.5.7",
+    "@swc/jest": "0.2.36",
+    "@testing-library/react": "15.0.6",
+    "@types/jest": "^29.4.0",
+    "@types/node": "18.19.14",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
+    "@typescript-eslint/eslint-plugin": "7.5.0",
+    "@typescript-eslint/parser": "7.5.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "@vitest/coverage-v8": "1.4.0",
+    "@vitest/ui": "1.4.0",
+    "autoprefixer": "10.4.13",
+    "babel-jest": "^29.4.1",
+    "cypress": "13.9.0",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.3",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-cypress": "^2.13.4",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jest": "^29.4.1",
+    "jest-environment-jsdom": "^29.4.1",
+    "jsdom": "~22.1.0",
+    "nx": "19.3.0",
+    "postcss": "8.4.38",
+    "prettier": "^2.6.2",
+    "sass": "1.62.1",
+    "swc-loader": "0.1.15",
+    "tailwindcss": "3.4.3",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "5.4.3",
+    "vite": "^5.0.0",
+    "vitest": "1.4.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".env",
+        "hash": "5238204894158769644"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "9358158593386416922"
+      },
+      {
+        "file": ".nvmrc",
+        "hash": "9324348838748113167"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "235626400633494639"
+      },
+      {
+        "file": "README.md",
+        "hash": "5979010974449675959"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "8445159796584750611"
+      },
+      {
+        "file": "nx.json",
+        "hash": "13749485192185464956"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "4267279822403483382"
+      },
+      {
+        "file": "package.json",
+        "hash": "1235668809907094983"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "vitest.workspace.ts",
+        "hash": "7870362608836821141"
+      }
+    ],
+    "projectFileMap": {
+      "product-preview-card-component": [
+        {
+          "file": "apps/product-preview-card-component/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/product-preview-card-component/README.md",
+          "hash": "7639099125615492886"
+        },
+        {
+          "file": "apps/product-preview-card-component/index.html",
+          "hash": "289687883287888762"
+        },
+        {
+          "file": "apps/product-preview-card-component/netlify.toml",
+          "hash": "4413126145794369828"
+        },
+        {
+          "file": "apps/product-preview-card-component/project.json",
+          "hash": "4815647313698810720"
+        },
+        {
+          "file": "apps/product-preview-card-component/public/favicon.png",
+          "hash": "12744533118699211984"
+        },
+        {
+          "file": "apps/product-preview-card-component/src/app/app.module.scss",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "apps/product-preview-card-component/src/app/app.tsx",
+          "hash": "7531237395960151338"
+        },
+        {
+          "file": "apps/product-preview-card-component/src/assets/icon-cart.svg",
+          "hash": "17655157021870686582"
+        },
+        {
+          "file": "apps/product-preview-card-component/src/assets/image-product-desktop.jpg",
+          "hash": "1556504119981924707"
+        },
+        {
+          "file": "apps/product-preview-card-component/src/assets/image-product-mobile.jpg",
+          "hash": "5651650073970724579"
+        },
+        {
+          "file": "apps/product-preview-card-component/src/global.scss",
+          "hash": "11947438197232581653"
+        },
+        {
+          "file": "apps/product-preview-card-component/src/main.tsx",
+          "hash": "4731961929376199421"
+        },
+        {
+          "file": "apps/product-preview-card-component/src/styles/variables.scss",
+          "hash": "9961682652881905385"
+        },
+        {
+          "file": "apps/product-preview-card-component/style-guide.md",
+          "hash": "7585493612826450099"
+        },
+        {
+          "file": "apps/product-preview-card-component/tsconfig.app.json",
+          "hash": "7232119452847825095"
+        },
+        {
+          "file": "apps/product-preview-card-component/tsconfig.json",
+          "hash": "11166545116916107487"
+        },
+        {
+          "file": "apps/product-preview-card-component/tsconfig.spec.json",
+          "hash": "9472099605191632308"
+        },
+        {
+          "file": "apps/product-preview-card-component/vite.config.ts",
+          "hash": "13811086146122290433",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react"
+          ]
+        }
+      ],
+      "testimonials-grid-section": [
+        {
+          "file": "apps/testimonials-grid-section/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/testimonials-grid-section/README.md",
+          "hash": "291016143024545072"
+        },
+        {
+          "file": "apps/testimonials-grid-section/index.html",
+          "hash": "10748880482405983796"
+        },
+        {
+          "file": "apps/testimonials-grid-section/netlify.toml",
+          "hash": "9966000569090546735"
+        },
+        {
+          "file": "apps/testimonials-grid-section/project.json",
+          "hash": "915125836784815011"
+        },
+        {
+          "file": "apps/testimonials-grid-section/public/favicon.png",
+          "hash": "12744533118699211984"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/app/app.module.scss",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/app/app.tsx",
+          "hash": "7531237395960151338"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/assets/bg-pattern-quotation.svg",
+          "hash": "11480547447612207925"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/assets/image-daniel.jpg",
+          "hash": "14150724093390048830"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/assets/image-jeanette.jpg",
+          "hash": "8373082656411203322"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/assets/image-jonathan.jpg",
+          "hash": "13661378937389505016"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/assets/image-kira.jpg",
+          "hash": "391352169294397384"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/assets/image-patrick.jpg",
+          "hash": "16131619160996728781"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/global.scss",
+          "hash": "8448895296153457989"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/main.tsx",
+          "hash": "4731961929376199421"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/styles/variables.scss",
+          "hash": "11548806028222437730"
+        },
+        {
+          "file": "apps/testimonials-grid-section/style-guide.md",
+          "hash": "7390532932531874364"
+        },
+        {
+          "file": "apps/testimonials-grid-section/tsconfig.app.json",
+          "hash": "7232119452847825095"
+        },
+        {
+          "file": "apps/testimonials-grid-section/tsconfig.json",
+          "hash": "11166545116916107487"
+        },
+        {
+          "file": "apps/testimonials-grid-section/tsconfig.spec.json",
+          "hash": "9472099605191632308"
+        },
+        {
+          "file": "apps/testimonials-grid-section/vite.config.ts",
+          "hash": "10252854168993783175",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react"
+          ]
+        }
+      ],
+      "four-card-feature-section": [
+        {
+          "file": "apps/four-card-feature-section/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/four-card-feature-section/README.md",
+          "hash": "13578993378215370749"
+        },
+        {
+          "file": "apps/four-card-feature-section/index.html",
+          "hash": "12315933200295096540"
+        },
+        {
+          "file": "apps/four-card-feature-section/netlify.toml",
+          "hash": "15936978433234713088"
+        },
+        {
+          "file": "apps/four-card-feature-section/project.json",
+          "hash": "8515944139026648622"
+        },
+        {
+          "file": "apps/four-card-feature-section/public/favicon.png",
+          "hash": "12744533118699211984"
+        },
+        {
+          "file": "apps/four-card-feature-section/src/app/app.module.scss",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "apps/four-card-feature-section/src/app/app.tsx",
+          "hash": "7531237395960151338"
+        },
+        {
+          "file": "apps/four-card-feature-section/src/assets/icon-calculator.svg",
+          "hash": "6337203711668338674"
+        },
+        {
+          "file": "apps/four-card-feature-section/src/assets/icon-karma.svg",
+          "hash": "2395558962543171063"
+        },
+        {
+          "file": "apps/four-card-feature-section/src/assets/icon-supervisor.svg",
+          "hash": "10430169826051945142"
+        },
+        {
+          "file": "apps/four-card-feature-section/src/assets/icon-team-builder.svg",
+          "hash": "11569887265841187887"
+        },
+        {
+          "file": "apps/four-card-feature-section/src/global.scss",
+          "hash": "17571643951501349386"
+        },
+        {
+          "file": "apps/four-card-feature-section/src/main.tsx",
+          "hash": "4731961929376199421"
+        },
+        {
+          "file": "apps/four-card-feature-section/src/styles/variables.scss",
+          "hash": "17575994672252508917"
+        },
+        {
+          "file": "apps/four-card-feature-section/style-guide.md",
+          "hash": "5766152964927004581"
+        },
+        {
+          "file": "apps/four-card-feature-section/tsconfig.app.json",
+          "hash": "7232119452847825095"
+        },
+        {
+          "file": "apps/four-card-feature-section/tsconfig.json",
+          "hash": "11166545116916107487"
+        },
+        {
+          "file": "apps/four-card-feature-section/tsconfig.spec.json",
+          "hash": "9472099605191632308"
+        },
+        {
+          "file": "apps/four-card-feature-section/vite.config.ts",
+          "hash": "10340171140152270907",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react"
+          ]
+        }
+      ],
+      "social-links-profile": [
+        {
+          "file": "apps/social-links-profile/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/social-links-profile/README.md",
+          "hash": "5305052094484860675"
+        },
+        {
+          "file": "apps/social-links-profile/index.html",
+          "hash": "12595957613558055476"
+        },
+        {
+          "file": "apps/social-links-profile/netlify.toml",
+          "hash": "14428968719069444202"
+        },
+        {
+          "file": "apps/social-links-profile/project.json",
+          "hash": "4433802364554839752"
+        },
+        {
+          "file": "apps/social-links-profile/public/favicon.png",
+          "hash": "12744533118699211984"
+        },
+        {
+          "file": "apps/social-links-profile/src/app/app.module.scss",
+          "hash": "4163546403321976793"
+        },
+        {
+          "file": "apps/social-links-profile/src/app/app.spec.tsx",
+          "hash": "11298880705597328662"
+        },
+        {
+          "file": "apps/social-links-profile/src/app/app.tsx",
+          "hash": "3749913423521282253"
+        },
+        {
+          "file": "apps/social-links-profile/src/assets/avatar-jessica.jpeg",
+          "hash": "2571164915705276097"
+        },
+        {
+          "file": "apps/social-links-profile/src/assets/screenshot.png",
+          "hash": "15698935174103232742"
+        },
+        {
+          "file": "apps/social-links-profile/src/global.scss",
+          "hash": "14246629877329861793"
+        },
+        {
+          "file": "apps/social-links-profile/src/main.tsx",
+          "hash": "4731961929376199421"
+        },
+        {
+          "file": "apps/social-links-profile/src/styles/variables.scss",
+          "hash": "11481575139856903392"
+        },
+        {
+          "file": "apps/social-links-profile/style-guide.md",
+          "hash": "3491986216779017672"
+        },
+        {
+          "file": "apps/social-links-profile/tsconfig.app.json",
+          "hash": "7232119452847825095"
+        },
+        {
+          "file": "apps/social-links-profile/tsconfig.json",
+          "hash": "11166545116916107487"
+        },
+        {
+          "file": "apps/social-links-profile/tsconfig.spec.json",
+          "hash": "9472099605191632308"
+        },
+        {
+          "file": "apps/social-links-profile/vite.config.ts",
+          "hash": "17753226417437574220",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react"
+          ]
+        }
+      ],
+      "huddle-landing-page-with-curved-sections": [
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/index.html",
+          "hash": "18204025106207765261"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/netlify.toml",
+          "hash": "18243301733852518262"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/project.json",
+          "hash": "2015826350457262815"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/public/favicon.png",
+          "hash": "12744533118699211984"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/app/app.module.scss",
+          "hash": "10854854316217426781"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/app/app.spec.tsx",
+          "hash": "6208037219120598560"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/app/app.tsx",
+          "hash": "11462783707402091796"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/assets/bg-footer-top-desktop.svg",
+          "hash": "15735036583545756823"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/assets/bg-footer-top-mobile.svg",
+          "hash": "3977413908773656916"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/assets/bg-section-bottom-desktop-1.svg",
+          "hash": "12502851284629926071"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/assets/bg-section-bottom-desktop-2.svg",
+          "hash": "12308605426804377464"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/assets/bg-section-bottom-mobile-1.svg",
+          "hash": "5764876886643279814"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/assets/bg-section-bottom-mobile-2.svg",
+          "hash": "16376463835927044760"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/assets/bg-section-top-desktop-1.svg",
+          "hash": "6360545950486684335"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/assets/bg-section-top-desktop-2.svg",
+          "hash": "446168374120092882"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/assets/bg-section-top-mobile-1.svg",
+          "hash": "7039861352456742116"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/assets/bg-section-top-mobile-2.svg",
+          "hash": "4039800012532796234"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/assets/icon-communities.svg",
+          "hash": "17168623023391571994"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/assets/icon-email.svg",
+          "hash": "12079468096704705545"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/assets/icon-messages.svg",
+          "hash": "3055113760792995887"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/assets/icon-phone.svg",
+          "hash": "13695291468931417024"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/assets/illustration-flowing-conversation.svg",
+          "hash": "8548407099160031621"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/assets/illustration-grow-together.svg",
+          "hash": "3942977401406194139"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/assets/illustration-your-users.svg",
+          "hash": "5715696862042083895"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/assets/logo.svg",
+          "hash": "1400895360031208917"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/assets/screen-mockups.svg",
+          "hash": "9897122857803212218"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/global.scss",
+          "hash": "761715124786591229"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/main.tsx",
+          "hash": "4731961929376199421"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/styles/mixins.scss",
+          "hash": "8756454646848282979"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/src/styles/variables.scss",
+          "hash": "721303786870603441"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/tsconfig.app.json",
+          "hash": "7232119452847825095"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/tsconfig.json",
+          "hash": "11166545116916107487"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/tsconfig.spec.json",
+          "hash": "9472099605191632308"
+        },
+        {
+          "file": "apps/huddle-landing-page-with-curved-sections/vite.config.ts",
+          "hash": "759570915941474076",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react"
+          ]
+        }
+      ],
+      "qr-code-component": [
+        {
+          "file": "apps/qr-code-component/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/qr-code-component/README.md",
+          "hash": "4909216303810915565"
+        },
+        {
+          "file": "apps/qr-code-component/index.html",
+          "hash": "11664036598862846942"
+        },
+        {
+          "file": "apps/qr-code-component/netlify.toml",
+          "hash": "8522544587917846040"
+        },
+        {
+          "file": "apps/qr-code-component/project.json",
+          "hash": "4099850431027835604"
+        },
+        {
+          "file": "apps/qr-code-component/public/favicon.png",
+          "hash": "12744533118699211984"
+        },
+        {
+          "file": "apps/qr-code-component/src/app/app.module.scss",
+          "hash": "11906082282327431065"
+        },
+        {
+          "file": "apps/qr-code-component/src/app/app.spec.tsx",
+          "hash": "675253867700085674"
+        },
+        {
+          "file": "apps/qr-code-component/src/app/app.tsx",
+          "hash": "10608798604102991773"
+        },
+        {
+          "file": "apps/qr-code-component/src/assets/image-qr-code.png",
+          "hash": "11498568320689125719"
+        },
+        {
+          "file": "apps/qr-code-component/src/assets/screenshot.png",
+          "hash": "618818648800294244"
+        },
+        {
+          "file": "apps/qr-code-component/src/global.scss",
+          "hash": "8755882015161590902"
+        },
+        {
+          "file": "apps/qr-code-component/src/main.tsx",
+          "hash": "4731961929376199421"
+        },
+        {
+          "file": "apps/qr-code-component/src/styles/variables.scss",
+          "hash": "13572523198840138734"
+        },
+        {
+          "file": "apps/qr-code-component/style-guide.md",
+          "hash": "5525614580958230172"
+        },
+        {
+          "file": "apps/qr-code-component/tsconfig.app.json",
+          "hash": "7232119452847825095"
+        },
+        {
+          "file": "apps/qr-code-component/tsconfig.json",
+          "hash": "11166545116916107487"
+        },
+        {
+          "file": "apps/qr-code-component/tsconfig.spec.json",
+          "hash": "9472099605191632308"
+        },
+        {
+          "file": "apps/qr-code-component/vite.config.ts",
+          "hash": "375343021393481485",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react"
+          ]
+        }
+      ],
+      "blog-preview-card": [
+        {
+          "file": "apps/blog-preview-card/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/blog-preview-card/README.md",
+          "hash": "5645794336257166326"
+        },
+        {
+          "file": "apps/blog-preview-card/index.html",
+          "hash": "16295032572048787284"
+        },
+        {
+          "file": "apps/blog-preview-card/netlify.toml",
+          "hash": "11200277875800383556"
+        },
+        {
+          "file": "apps/blog-preview-card/project.json",
+          "hash": "545281185830825145"
+        },
+        {
+          "file": "apps/blog-preview-card/public/favicon.png",
+          "hash": "12744533118699211984"
+        },
+        {
+          "file": "apps/blog-preview-card/src/app/app.module.scss",
+          "hash": "2617210129725228680"
+        },
+        {
+          "file": "apps/blog-preview-card/src/app/app.spec.tsx",
+          "hash": "1695151964248199410"
+        },
+        {
+          "file": "apps/blog-preview-card/src/app/app.tsx",
+          "hash": "15031022761643297361"
+        },
+        {
+          "file": "apps/blog-preview-card/src/assets/illustration-article.svg",
+          "hash": "5601881043254885262"
+        },
+        {
+          "file": "apps/blog-preview-card/src/assets/image-avatar.webp",
+          "hash": "7813604274838627267"
+        },
+        {
+          "file": "apps/blog-preview-card/src/assets/screenshot.png",
+          "hash": "3015433697725060737"
+        },
+        {
+          "file": "apps/blog-preview-card/src/global.scss",
+          "hash": "15547397634368440844"
+        },
+        {
+          "file": "apps/blog-preview-card/src/main.tsx",
+          "hash": "4731961929376199421"
+        },
+        {
+          "file": "apps/blog-preview-card/src/styles/variables.scss",
+          "hash": "17375427070980524018"
+        },
+        {
+          "file": "apps/blog-preview-card/style-guide.md",
+          "hash": "1393157268525703364"
+        },
+        {
+          "file": "apps/blog-preview-card/tsconfig.app.json",
+          "hash": "7232119452847825095"
+        },
+        {
+          "file": "apps/blog-preview-card/tsconfig.json",
+          "hash": "11166545116916107487"
+        },
+        {
+          "file": "apps/blog-preview-card/tsconfig.spec.json",
+          "hash": "9472099605191632308"
+        },
+        {
+          "file": "apps/blog-preview-card/vite.config.ts",
+          "hash": "16366620604509450232",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react"
+          ]
+        }
+      ],
+      "algorithm": [
+        {
+          "file": "apps/algorithm/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/algorithm/index.html",
+          "hash": "5210647597409447738"
+        },
+        {
+          "file": "apps/algorithm/jest.config.ts",
+          "hash": "14879731503878771351"
+        },
+        {
+          "file": "apps/algorithm/project.json",
+          "hash": "4630128084750451273"
+        },
+        {
+          "file": "apps/algorithm/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/algorithm/src/app/app.module.scss",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "apps/algorithm/src/app/app.spec.tsx",
+          "hash": "18214666402306851698"
+        },
+        {
+          "file": "apps/algorithm/src/app/app.tsx",
+          "hash": "1711243341499309220"
+        },
+        {
+          "file": "apps/algorithm/src/app/nx-welcome.tsx",
+          "hash": "729168762476089670"
+        },
+        {
+          "file": "apps/algorithm/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/algorithm/src/lib/search/binary.spec.ts",
+          "hash": "5686462515982933275"
+        },
+        {
+          "file": "apps/algorithm/src/lib/search/binary.ts",
+          "hash": "3545185836758597962"
+        },
+        {
+          "file": "apps/algorithm/src/lib/search/linear.spec.ts",
+          "hash": "7241506294938785585"
+        },
+        {
+          "file": "apps/algorithm/src/lib/search/linear.ts",
+          "hash": "14048339835256122210"
+        },
+        {
+          "file": "apps/algorithm/src/lib/sort/bubble.spec.ts",
+          "hash": "5612618650360890012"
+        },
+        {
+          "file": "apps/algorithm/src/lib/sort/bubble.ts",
+          "hash": "8257670491010617391"
+        },
+        {
+          "file": "apps/algorithm/src/lib/structure/index.ts",
+          "hash": "9898581515002320225"
+        },
+        {
+          "file": "apps/algorithm/src/main.tsx",
+          "hash": "4731961929376199421"
+        },
+        {
+          "file": "apps/algorithm/src/styles.scss",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "apps/algorithm/tsconfig.app.json",
+          "hash": "7232119452847825095"
+        },
+        {
+          "file": "apps/algorithm/tsconfig.json",
+          "hash": "11166545116916107487"
+        },
+        {
+          "file": "apps/algorithm/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        },
+        {
+          "file": "apps/algorithm/vite.config.ts",
+          "hash": "417449035577858689",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react"
+          ]
+        }
+      ],
+      "recipe-page": [
+        {
+          "file": "apps/recipe-page/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/recipe-page/README.md",
+          "hash": "3903492479404031221"
+        },
+        {
+          "file": "apps/recipe-page/index.html",
+          "hash": "3152627075649173820"
+        },
+        {
+          "file": "apps/recipe-page/netlify.toml",
+          "hash": "18097489593546187575"
+        },
+        {
+          "file": "apps/recipe-page/project.json",
+          "hash": "9000008490610943982"
+        },
+        {
+          "file": "apps/recipe-page/public/favicon.png",
+          "hash": "12744533118699211984"
+        },
+        {
+          "file": "apps/recipe-page/src/app/app.module.scss",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "apps/recipe-page/src/app/app.tsx",
+          "hash": "7531237395960151338"
+        },
+        {
+          "file": "apps/recipe-page/src/assets/image-omelette.jpeg",
+          "hash": "4786132035395625263"
+        },
+        {
+          "file": "apps/recipe-page/src/global.scss",
+          "hash": "8755882015161590902"
+        },
+        {
+          "file": "apps/recipe-page/src/main.tsx",
+          "hash": "4731961929376199421"
+        },
+        {
+          "file": "apps/recipe-page/src/styles/variables.scss",
+          "hash": "269485652247801083"
+        },
+        {
+          "file": "apps/recipe-page/style-guide.md",
+          "hash": "16804543145279699165"
+        },
+        {
+          "file": "apps/recipe-page/tsconfig.app.json",
+          "hash": "7232119452847825095"
+        },
+        {
+          "file": "apps/recipe-page/tsconfig.json",
+          "hash": "11166545116916107487"
+        },
+        {
+          "file": "apps/recipe-page/tsconfig.spec.json",
+          "hash": "9472099605191632308"
+        },
+        {
+          "file": "apps/recipe-page/vite.config.ts",
+          "hash": "156422495497625397",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react"
+          ]
+        }
+      ],
+      "randomizer": [
+        {
+          "file": "apps/randomizer/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/randomizer/index.html",
+          "hash": "4550436575073462006"
+        },
+        {
+          "file": "apps/randomizer/postcss.config.js",
+          "hash": "2759402739052110475"
+        },
+        {
+          "file": "apps/randomizer/project.json",
+          "hash": "11909295349094013677"
+        },
+        {
+          "file": "apps/randomizer/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/randomizer/src/app/app.module.scss",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "apps/randomizer/src/app/app.spec.tsx",
+          "hash": "2829752226403106209"
+        },
+        {
+          "file": "apps/randomizer/src/app/app.tsx",
+          "hash": "14526911361702769660",
+          "deps": [
+            "npm:classnames"
+          ]
+        },
+        {
+          "file": "apps/randomizer/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/randomizer/src/main.tsx",
+          "hash": "4731961929376199421"
+        },
+        {
+          "file": "apps/randomizer/src/styles.scss",
+          "hash": "15395227547853637436"
+        },
+        {
+          "file": "apps/randomizer/tailwind.config.js",
+          "hash": "13090734457927965885"
+        },
+        {
+          "file": "apps/randomizer/tsconfig.app.json",
+          "hash": "7232119452847825095"
+        },
+        {
+          "file": "apps/randomizer/tsconfig.json",
+          "hash": "11166545116916107487"
+        },
+        {
+          "file": "apps/randomizer/tsconfig.spec.json",
+          "hash": "9472099605191632308"
+        },
+        {
+          "file": "apps/randomizer/vite.config.ts",
+          "hash": "14620565868890912145",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react"
+          ]
+        }
+      ]
+    }
+  }
+}

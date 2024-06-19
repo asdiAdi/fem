@@ -1,0 +1,13 @@
+[NX Daemon Server] - 2024-06-19T04:36:46.713Z - Started listening on: /var/folders/4y/4d222jsn1nj08yb0zj2n26zr0000gn/T/3be56a0ec063f6eb3a26/d.sock
+[NX Daemon Server] - 2024-06-19T04:36:46.717Z - [WATCHER]: Subscribed to changes within: /Users/carladi/WebstormProjects/portfolio (native)
+[NX Daemon Server] - 2024-06-19T04:36:46.718Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-19T04:36:46.719Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-19T04:36:46.720Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-19T04:36:46.722Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-06-19T04:36:46.722Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-06-19T04:36:46.722Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-06-19T04:36:46.747Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-06-19T04:36:46.747Z - Done responding to the client handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-06-19T04:36:46.747Z - Handled GET_NX_WORKSPACE_FILES. Handling time: 2. Response time: 0.
+[NX Daemon Server] - 2024-06-19T04:36:48.126Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-19T04:37:26.091Z - [WATCHER]: Processing file changes in outputs
