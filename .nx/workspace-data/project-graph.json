@@ -610,6 +610,113 @@
         "implicitDependencies": []
       }
     },
+    "meet-landing-page": {
+      "name": "meet-landing-page",
+      "type": "app",
+      "data": {
+        "root": "apps/meet-landing-page",
+        "targets": {
+          "build": {
+            "executor": "@nx/vite:build",
+            "cache": true,
+            "dependsOn": [
+              "^build"
+            ],
+            "inputs": [
+              "production",
+              "^production"
+            ],
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "defaultConfiguration": "production",
+            "options": {
+              "outputPath": "dist/apps/meet-landing-page"
+            },
+            "configurations": {
+              "development": {
+                "mode": "development"
+              },
+              "production": {
+                "mode": "production"
+              }
+            }
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production",
+              "{workspaceRoot}/jest.preset.js"
+            ],
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "passWithNoTests": true,
+              "jestConfig": "apps/meet-landing-page/jest.config.ts"
+            },
+            "configurations": {
+              "ci": {
+                "ci": true,
+                "codeCoverage": true
+              }
+            }
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "cache": true,
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore",
+              "{workspaceRoot}/eslint.config.js"
+            ],
+            "options": {},
+            "configurations": {}
+          },
+          "serve": {
+            "executor": "@nx/vite:dev-server",
+            "defaultConfiguration": "development",
+            "options": {
+              "buildTarget": "meet-landing-page:build"
+            },
+            "configurations": {
+              "development": {
+                "buildTarget": "meet-landing-page:build:development",
+                "hmr": true
+              },
+              "production": {
+                "buildTarget": "meet-landing-page:build:production",
+                "hmr": false
+              }
+            }
+          },
+          "preview": {
+            "executor": "@nx/vite:preview-server",
+            "defaultConfiguration": "development",
+            "options": {
+              "buildTarget": "meet-landing-page:build"
+            },
+            "configurations": {
+              "development": {
+                "buildTarget": "meet-landing-page:build:development"
+              },
+              "production": {
+                "buildTarget": "meet-landing-page:build:production"
+              }
+            }
+          }
+        },
+        "name": "meet-landing-page",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/meet-landing-page/src",
+        "projectType": "application",
+        "tags": [],
+        "implicitDependencies": []
+      }
+    },
     "qr-code-component": {
       "name": "qr-code-component",
       "type": "app",
@@ -14272,6 +14379,21 @@
     "huddle-landing-page-with-curved-sections": [
       {
         "source": "huddle-landing-page-with-curved-sections",
+        "target": "npm:@testing-library/react",
+        "type": "static"
+      },
+      {
+        "source": "huddle-landing-page-with-curved-sections",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "huddle-landing-page-with-curved-sections",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "huddle-landing-page-with-curved-sections",
         "target": "npm:vite",
         "type": "static"
       },
@@ -14282,6 +14404,16 @@
       }
     ],
     "product-preview-card-component": [
+      {
+        "source": "product-preview-card-component",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "product-preview-card-component",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
       {
         "source": "product-preview-card-component",
         "target": "npm:vite",
@@ -14296,6 +14428,16 @@
     "four-card-feature-section": [
       {
         "source": "four-card-feature-section",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "four-card-feature-section",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "four-card-feature-section",
         "target": "npm:vite",
         "type": "static"
       },
@@ -14306,6 +14448,16 @@
       }
     ],
     "testimonials-grid-section": [
+      {
+        "source": "testimonials-grid-section",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "testimonials-grid-section",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
       {
         "source": "testimonials-grid-section",
         "target": "npm:vite",
@@ -14320,6 +14472,21 @@
     "social-links-profile": [
       {
         "source": "social-links-profile",
+        "target": "npm:@testing-library/react",
+        "type": "static"
+      },
+      {
+        "source": "social-links-profile",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "social-links-profile",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "social-links-profile",
         "target": "npm:vite",
         "type": "static"
       },
@@ -14332,6 +14499,21 @@
     "blog-preview-card": [
       {
         "source": "blog-preview-card",
+        "target": "npm:@testing-library/react",
+        "type": "static"
+      },
+      {
+        "source": "blog-preview-card",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "blog-preview-card",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "blog-preview-card",
         "target": "npm:vite",
         "type": "static"
       },
@@ -14341,7 +14523,49 @@
         "type": "static"
       }
     ],
+    "meet-landing-page": [
+      {
+        "source": "meet-landing-page",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "meet-landing-page",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "meet-landing-page",
+        "target": "npm:vite",
+        "type": "static"
+      },
+      {
+        "source": "meet-landing-page",
+        "target": "npm:@vitejs/plugin-react",
+        "type": "static"
+      },
+      {
+        "source": "meet-landing-page",
+        "target": "npm:@nx/vite",
+        "type": "static"
+      }
+    ],
     "qr-code-component": [
+      {
+        "source": "qr-code-component",
+        "target": "npm:@testing-library/react",
+        "type": "static"
+      },
+      {
+        "source": "qr-code-component",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "qr-code-component",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
       {
         "source": "qr-code-component",
         "target": "npm:vite",
@@ -14356,6 +14580,16 @@
     "recipe-page": [
       {
         "source": "recipe-page",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "recipe-page",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "recipe-page",
         "target": "npm:vite",
         "type": "static"
       },
@@ -14368,7 +14602,27 @@
     "randomizer": [
       {
         "source": "randomizer",
+        "target": "npm:@testing-library/react",
+        "type": "static"
+      },
+      {
+        "source": "randomizer",
         "target": "npm:classnames",
+        "type": "static"
+      },
+      {
+        "source": "randomizer",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "randomizer",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "randomizer",
+        "target": "npm:@nx/react",
         "type": "static"
       },
       {
@@ -14383,6 +14637,21 @@
       }
     ],
     "algorithm": [
+      {
+        "source": "algorithm",
+        "target": "npm:@testing-library/react",
+        "type": "static"
+      },
+      {
+        "source": "algorithm",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "algorithm",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
       {
         "source": "algorithm",
         "target": "npm:vite",
