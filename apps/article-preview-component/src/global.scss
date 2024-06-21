@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'styles/colors';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Manrope, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  background-color: $very-dark-grayish-blue;
+}

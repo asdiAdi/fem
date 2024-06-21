@@ -64,56 +64,24 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "migrations.json",
-        "hash": "8445159796584750611"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "4267279822403483382"
-      },
-      {
         "file": ".nvmrc",
         "hash": "9324348838748113167"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
       },
       {
         "file": "nx.json",
         "hash": "13749485192185464956"
       },
       {
-        "file": ".gitignore",
-        "hash": "9358158593386416922"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "17866138117546000433"
-      },
-      {
-        "file": ".env",
-        "hash": "5238204894158769644"
-      },
-      {
-        "file": "package.json",
-        "hash": "1235668809907094983"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
         "file": ".eslintignore",
         "hash": "7663861978715868291"
       },
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
         "file": "jest.config.ts",
         "hash": "12333515226966617182"
-      },
-      {
-        "file": "README.md",
-        "hash": "5979010974449675959"
       },
       {
         "file": ".prettierrc",
@@ -124,8 +92,40 @@
         "hash": "235626400633494639"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": ".env",
+        "hash": "5238204894158769644"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "README.md",
+        "hash": "5979010974449675959"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "package.json",
+        "hash": "1235668809907094983"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "9358158593386416922"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "4267279822403483382"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "8445159796584750611"
       },
       {
         "file": "vitest.workspace.ts",
@@ -133,69 +133,49 @@
       }
     ],
     "projectFileMap": {
-      "testimonials-grid-section": [
+      "recipe-page": [
         {
-          "file": "apps/testimonials-grid-section/.eslintrc.json",
+          "file": "apps/recipe-page/.eslintrc.json",
           "hash": "11012487992710232822"
         },
         {
-          "file": "apps/testimonials-grid-section/README.md",
-          "hash": "291016143024545072"
+          "file": "apps/recipe-page/README.md",
+          "hash": "3903492479404031221"
         },
         {
-          "file": "apps/testimonials-grid-section/index.html",
-          "hash": "10748880482405983796"
+          "file": "apps/recipe-page/index.html",
+          "hash": "3152627075649173820"
         },
         {
-          "file": "apps/testimonials-grid-section/netlify.toml",
-          "hash": "9966000569090546735"
+          "file": "apps/recipe-page/netlify.toml",
+          "hash": "18097489593546187575"
         },
         {
-          "file": "apps/testimonials-grid-section/project.json",
-          "hash": "915125836784815011"
+          "file": "apps/recipe-page/project.json",
+          "hash": "9000008490610943982"
         },
         {
-          "file": "apps/testimonials-grid-section/public/favicon.png",
+          "file": "apps/recipe-page/public/favicon.png",
           "hash": "12744533118699211984"
         },
         {
-          "file": "apps/testimonials-grid-section/src/app/app.module.scss",
+          "file": "apps/recipe-page/src/app/app.module.scss",
           "hash": "8887387885984320532"
         },
         {
-          "file": "apps/testimonials-grid-section/src/app/app.tsx",
+          "file": "apps/recipe-page/src/app/app.tsx",
           "hash": "7531237395960151338"
         },
         {
-          "file": "apps/testimonials-grid-section/src/assets/bg-pattern-quotation.svg",
-          "hash": "11480547447612207925"
+          "file": "apps/recipe-page/src/assets/image-omelette.jpeg",
+          "hash": "4786132035395625263"
         },
         {
-          "file": "apps/testimonials-grid-section/src/assets/image-daniel.jpg",
-          "hash": "14150724093390048830"
+          "file": "apps/recipe-page/src/global.scss",
+          "hash": "8755882015161590902"
         },
         {
-          "file": "apps/testimonials-grid-section/src/assets/image-jeanette.jpg",
-          "hash": "8373082656411203322"
-        },
-        {
-          "file": "apps/testimonials-grid-section/src/assets/image-jonathan.jpg",
-          "hash": "13661378937389505016"
-        },
-        {
-          "file": "apps/testimonials-grid-section/src/assets/image-kira.jpg",
-          "hash": "391352169294397384"
-        },
-        {
-          "file": "apps/testimonials-grid-section/src/assets/image-patrick.jpg",
-          "hash": "16131619160996728781"
-        },
-        {
-          "file": "apps/testimonials-grid-section/src/global.scss",
-          "hash": "8448895296153457989"
-        },
-        {
-          "file": "apps/testimonials-grid-section/src/main.tsx",
+          "file": "apps/recipe-page/src/main.tsx",
           "hash": "4731961929376199421",
           "deps": [
             "npm:react",
@@ -203,147 +183,32 @@
           ]
         },
         {
-          "file": "apps/testimonials-grid-section/src/styles/variables.scss",
-          "hash": "11548806028222437730"
+          "file": "apps/recipe-page/src/styles/variables.scss",
+          "hash": "269485652247801083"
         },
         {
-          "file": "apps/testimonials-grid-section/style-guide.md",
-          "hash": "7390532932531874364"
+          "file": "apps/recipe-page/style-guide.md",
+          "hash": "16804543145279699165"
         },
         {
-          "file": "apps/testimonials-grid-section/tsconfig.app.json",
+          "file": "apps/recipe-page/tsconfig.app.json",
           "hash": "7232119452847825095"
         },
         {
-          "file": "apps/testimonials-grid-section/tsconfig.json",
+          "file": "apps/recipe-page/tsconfig.json",
           "hash": "11166545116916107487"
         },
         {
-          "file": "apps/testimonials-grid-section/tsconfig.spec.json",
+          "file": "apps/recipe-page/tsconfig.spec.json",
           "hash": "9472099605191632308"
         },
         {
-          "file": "apps/testimonials-grid-section/vite.config.ts",
-          "hash": "10252854168993783175",
+          "file": "apps/recipe-page/vite.config.ts",
+          "hash": "156422495497625397",
           "deps": [
             "npm:vite",
             "npm:@vitejs/plugin-react"
           ]
-        }
-      ],
-      "meet-landing-page": [
-        {
-          "file": "apps/meet-landing-page/.eslintrc.json",
-          "hash": "11012487992710232822"
-        },
-        {
-          "file": "apps/meet-landing-page/index.html",
-          "hash": "15686193318575369727"
-        },
-        {
-          "file": "apps/meet-landing-page/jest.config.ts",
-          "hash": "2344029031363849030"
-        },
-        {
-          "file": "apps/meet-landing-page/project.json",
-          "hash": "15018513324582868278"
-        },
-        {
-          "file": "apps/meet-landing-page/src/app/app.module.scss",
-          "hash": "8887387885984320532"
-        },
-        {
-          "file": "apps/meet-landing-page/src/app/app.tsx",
-          "hash": "7531237395960151338"
-        },
-        {
-          "file": "apps/meet-landing-page/src/main.tsx",
-          "hash": "4731961929376199421",
-          "deps": [
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/meet-landing-page/tsconfig.app.json",
-          "hash": "7232119452847825095"
-        },
-        {
-          "file": "apps/meet-landing-page/tsconfig.json",
-          "hash": "824604371006306276"
-        },
-        {
-          "file": "apps/meet-landing-page/tsconfig.spec.json",
-          "hash": "11378287594513225419"
-        },
-        {
-          "file": "apps/meet-landing-page/vite.config.ts",
-          "hash": "8170096908482460752",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react",
-            "npm:@nx/vite"
-          ]
-        },
-        {
-          "file": "apps/meet-landing-page/src/assets/desktop/image-footer.jpg",
-          "hash": "15945668178064632830"
-        },
-        {
-          "file": "apps/meet-landing-page/src/assets/logo.svg",
-          "hash": "11855141492100084198"
-        },
-        {
-          "file": "apps/meet-landing-page/src/assets/desktop/image-man-texting.jpg",
-          "hash": "9669149760190023304"
-        },
-        {
-          "file": "apps/meet-landing-page/src/assets/desktop/image-women-videochatting.jpg",
-          "hash": "4716950235991545415"
-        },
-        {
-          "file": "apps/meet-landing-page/src/assets/tablet/image-footer.jpg",
-          "hash": "8666891468494620220"
-        },
-        {
-          "file": "apps/meet-landing-page/src/assets/desktop/image-woman-in-videocall.jpg",
-          "hash": "14000120064741153947"
-        },
-        {
-          "file": "apps/meet-landing-page/src/assets/desktop/image-hero-left.png",
-          "hash": "11369061422674609708"
-        },
-        {
-          "file": "apps/meet-landing-page/src/assets/tablet/image-hero.png",
-          "hash": "2724635538391628281"
-        },
-        {
-          "file": "apps/meet-landing-page/src/assets/desktop/image-men-in-meeting.jpg",
-          "hash": "1135198335643845113"
-        },
-        {
-          "file": "apps/meet-landing-page/src/assets/desktop/image-hero-right.png",
-          "hash": "18139882261018879456"
-        },
-        {
-          "file": "apps/meet-landing-page/src/assets/mobile/image-footer.jpg",
-          "hash": "8359751062373191904"
-        },
-        {
-          "file": "apps/meet-landing-page/README.md",
-          "hash": "13282230425163140955"
-        },
-        {
-          "file": "apps/meet-landing-page/public/favicon.png",
-          "hash": "12744533118699211984"
-        },
-        {
-          "file": "apps/meet-landing-page/src/global.scss",
-          "hash": "645360462729105631"
-        },
-        {
-          "file": "apps/meet-landing-page/src/styles/variables.scss",
-          "hash": "10189558294967658152"
         }
       ],
       "algorithm": [
@@ -451,57 +316,69 @@
           ]
         }
       ],
-      "product-preview-card-component": [
+      "testimonials-grid-section": [
         {
-          "file": "apps/product-preview-card-component/.eslintrc.json",
+          "file": "apps/testimonials-grid-section/.eslintrc.json",
           "hash": "11012487992710232822"
         },
         {
-          "file": "apps/product-preview-card-component/README.md",
-          "hash": "7639099125615492886"
+          "file": "apps/testimonials-grid-section/README.md",
+          "hash": "291016143024545072"
         },
         {
-          "file": "apps/product-preview-card-component/index.html",
-          "hash": "289687883287888762"
+          "file": "apps/testimonials-grid-section/index.html",
+          "hash": "10748880482405983796"
         },
         {
-          "file": "apps/product-preview-card-component/netlify.toml",
-          "hash": "4413126145794369828"
+          "file": "apps/testimonials-grid-section/netlify.toml",
+          "hash": "9966000569090546735"
         },
         {
-          "file": "apps/product-preview-card-component/project.json",
-          "hash": "4815647313698810720"
+          "file": "apps/testimonials-grid-section/project.json",
+          "hash": "915125836784815011"
         },
         {
-          "file": "apps/product-preview-card-component/public/favicon.png",
+          "file": "apps/testimonials-grid-section/public/favicon.png",
           "hash": "12744533118699211984"
         },
         {
-          "file": "apps/product-preview-card-component/src/app/app.module.scss",
+          "file": "apps/testimonials-grid-section/src/app/app.module.scss",
           "hash": "8887387885984320532"
         },
         {
-          "file": "apps/product-preview-card-component/src/app/app.tsx",
+          "file": "apps/testimonials-grid-section/src/app/app.tsx",
           "hash": "7531237395960151338"
         },
         {
-          "file": "apps/product-preview-card-component/src/assets/icon-cart.svg",
-          "hash": "17655157021870686582"
+          "file": "apps/testimonials-grid-section/src/assets/bg-pattern-quotation.svg",
+          "hash": "11480547447612207925"
         },
         {
-          "file": "apps/product-preview-card-component/src/assets/image-product-desktop.jpg",
-          "hash": "1556504119981924707"
+          "file": "apps/testimonials-grid-section/src/assets/image-daniel.jpg",
+          "hash": "14150724093390048830"
         },
         {
-          "file": "apps/product-preview-card-component/src/assets/image-product-mobile.jpg",
-          "hash": "5651650073970724579"
+          "file": "apps/testimonials-grid-section/src/assets/image-jeanette.jpg",
+          "hash": "8373082656411203322"
         },
         {
-          "file": "apps/product-preview-card-component/src/global.scss",
-          "hash": "11947438197232581653"
+          "file": "apps/testimonials-grid-section/src/assets/image-jonathan.jpg",
+          "hash": "13661378937389505016"
         },
         {
-          "file": "apps/product-preview-card-component/src/main.tsx",
+          "file": "apps/testimonials-grid-section/src/assets/image-kira.jpg",
+          "hash": "391352169294397384"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/assets/image-patrick.jpg",
+          "hash": "16131619160996728781"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/global.scss",
+          "hash": "8448895296153457989"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/main.tsx",
           "hash": "4731961929376199421",
           "deps": [
             "npm:react",
@@ -509,195 +386,28 @@
           ]
         },
         {
-          "file": "apps/product-preview-card-component/src/styles/variables.scss",
-          "hash": "9961682652881905385"
+          "file": "apps/testimonials-grid-section/src/styles/variables.scss",
+          "hash": "11548806028222437730"
         },
         {
-          "file": "apps/product-preview-card-component/style-guide.md",
-          "hash": "7585493612826450099"
+          "file": "apps/testimonials-grid-section/style-guide.md",
+          "hash": "7390532932531874364"
         },
         {
-          "file": "apps/product-preview-card-component/tsconfig.app.json",
+          "file": "apps/testimonials-grid-section/tsconfig.app.json",
           "hash": "7232119452847825095"
         },
         {
-          "file": "apps/product-preview-card-component/tsconfig.json",
+          "file": "apps/testimonials-grid-section/tsconfig.json",
           "hash": "11166545116916107487"
         },
         {
-          "file": "apps/product-preview-card-component/tsconfig.spec.json",
+          "file": "apps/testimonials-grid-section/tsconfig.spec.json",
           "hash": "9472099605191632308"
         },
         {
-          "file": "apps/product-preview-card-component/vite.config.ts",
-          "hash": "13811086146122290433",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react"
-          ]
-        }
-      ],
-      "recipe-page": [
-        {
-          "file": "apps/recipe-page/.eslintrc.json",
-          "hash": "11012487992710232822"
-        },
-        {
-          "file": "apps/recipe-page/README.md",
-          "hash": "3903492479404031221"
-        },
-        {
-          "file": "apps/recipe-page/index.html",
-          "hash": "3152627075649173820"
-        },
-        {
-          "file": "apps/recipe-page/netlify.toml",
-          "hash": "18097489593546187575"
-        },
-        {
-          "file": "apps/recipe-page/project.json",
-          "hash": "9000008490610943982"
-        },
-        {
-          "file": "apps/recipe-page/public/favicon.png",
-          "hash": "12744533118699211984"
-        },
-        {
-          "file": "apps/recipe-page/src/app/app.module.scss",
-          "hash": "8887387885984320532"
-        },
-        {
-          "file": "apps/recipe-page/src/app/app.tsx",
-          "hash": "7531237395960151338"
-        },
-        {
-          "file": "apps/recipe-page/src/assets/image-omelette.jpeg",
-          "hash": "4786132035395625263"
-        },
-        {
-          "file": "apps/recipe-page/src/global.scss",
-          "hash": "8755882015161590902"
-        },
-        {
-          "file": "apps/recipe-page/src/main.tsx",
-          "hash": "4731961929376199421",
-          "deps": [
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/recipe-page/src/styles/variables.scss",
-          "hash": "269485652247801083"
-        },
-        {
-          "file": "apps/recipe-page/style-guide.md",
-          "hash": "16804543145279699165"
-        },
-        {
-          "file": "apps/recipe-page/tsconfig.app.json",
-          "hash": "7232119452847825095"
-        },
-        {
-          "file": "apps/recipe-page/tsconfig.json",
-          "hash": "11166545116916107487"
-        },
-        {
-          "file": "apps/recipe-page/tsconfig.spec.json",
-          "hash": "9472099605191632308"
-        },
-        {
-          "file": "apps/recipe-page/vite.config.ts",
-          "hash": "156422495497625397",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react"
-          ]
-        }
-      ],
-      "qr-code-component": [
-        {
-          "file": "apps/qr-code-component/.eslintrc.json",
-          "hash": "11012487992710232822"
-        },
-        {
-          "file": "apps/qr-code-component/README.md",
-          "hash": "4909216303810915565"
-        },
-        {
-          "file": "apps/qr-code-component/index.html",
-          "hash": "11664036598862846942"
-        },
-        {
-          "file": "apps/qr-code-component/netlify.toml",
-          "hash": "8522544587917846040"
-        },
-        {
-          "file": "apps/qr-code-component/project.json",
-          "hash": "4099850431027835604"
-        },
-        {
-          "file": "apps/qr-code-component/public/favicon.png",
-          "hash": "12744533118699211984"
-        },
-        {
-          "file": "apps/qr-code-component/src/app/app.module.scss",
-          "hash": "11906082282327431065"
-        },
-        {
-          "file": "apps/qr-code-component/src/app/app.spec.tsx",
-          "hash": "675253867700085674",
-          "deps": [
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "apps/qr-code-component/src/app/app.tsx",
-          "hash": "10608798604102991773"
-        },
-        {
-          "file": "apps/qr-code-component/src/assets/image-qr-code.png",
-          "hash": "11498568320689125719"
-        },
-        {
-          "file": "apps/qr-code-component/src/assets/screenshot.png",
-          "hash": "618818648800294244"
-        },
-        {
-          "file": "apps/qr-code-component/src/global.scss",
-          "hash": "8755882015161590902"
-        },
-        {
-          "file": "apps/qr-code-component/src/main.tsx",
-          "hash": "4731961929376199421",
-          "deps": [
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/qr-code-component/src/styles/variables.scss",
-          "hash": "13572523198840138734"
-        },
-        {
-          "file": "apps/qr-code-component/style-guide.md",
-          "hash": "5525614580958230172"
-        },
-        {
-          "file": "apps/qr-code-component/tsconfig.app.json",
-          "hash": "7232119452847825095"
-        },
-        {
-          "file": "apps/qr-code-component/tsconfig.json",
-          "hash": "11166545116916107487"
-        },
-        {
-          "file": "apps/qr-code-component/tsconfig.spec.json",
-          "hash": "9472099605191632308"
-        },
-        {
-          "file": "apps/qr-code-component/vite.config.ts",
-          "hash": "375343021393481485",
+          "file": "apps/testimonials-grid-section/vite.config.ts",
+          "hash": "10252854168993783175",
           "deps": [
             "npm:vite",
             "npm:@vitejs/plugin-react"
@@ -857,51 +567,57 @@
           ]
         }
       ],
-      "randomizer": [
+      "product-preview-card-component": [
         {
-          "file": "apps/randomizer/.eslintrc.json",
+          "file": "apps/product-preview-card-component/.eslintrc.json",
           "hash": "11012487992710232822"
         },
         {
-          "file": "apps/randomizer/index.html",
-          "hash": "4550436575073462006"
+          "file": "apps/product-preview-card-component/README.md",
+          "hash": "7639099125615492886"
         },
         {
-          "file": "apps/randomizer/postcss.config.js",
-          "hash": "2759402739052110475"
+          "file": "apps/product-preview-card-component/index.html",
+          "hash": "289687883287888762"
         },
         {
-          "file": "apps/randomizer/project.json",
-          "hash": "11909295349094013677"
+          "file": "apps/product-preview-card-component/netlify.toml",
+          "hash": "4413126145794369828"
         },
         {
-          "file": "apps/randomizer/public/favicon.ico",
-          "hash": "9303420814833116677"
+          "file": "apps/product-preview-card-component/project.json",
+          "hash": "4815647313698810720"
         },
         {
-          "file": "apps/randomizer/src/app/app.module.scss",
+          "file": "apps/product-preview-card-component/public/favicon.png",
+          "hash": "12744533118699211984"
+        },
+        {
+          "file": "apps/product-preview-card-component/src/app/app.module.scss",
           "hash": "8887387885984320532"
         },
         {
-          "file": "apps/randomizer/src/app/app.spec.tsx",
-          "hash": "2829752226403106209",
-          "deps": [
-            "npm:@testing-library/react"
-          ]
+          "file": "apps/product-preview-card-component/src/app/app.tsx",
+          "hash": "7531237395960151338"
         },
         {
-          "file": "apps/randomizer/src/app/app.tsx",
-          "hash": "14526911361702769660",
-          "deps": [
-            "npm:classnames"
-          ]
+          "file": "apps/product-preview-card-component/src/assets/icon-cart.svg",
+          "hash": "17655157021870686582"
         },
         {
-          "file": "apps/randomizer/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
+          "file": "apps/product-preview-card-component/src/assets/image-product-desktop.jpg",
+          "hash": "1556504119981924707"
         },
         {
-          "file": "apps/randomizer/src/main.tsx",
+          "file": "apps/product-preview-card-component/src/assets/image-product-mobile.jpg",
+          "hash": "5651650073970724579"
+        },
+        {
+          "file": "apps/product-preview-card-component/src/global.scss",
+          "hash": "11947438197232581653"
+        },
+        {
+          "file": "apps/product-preview-card-component/src/main.tsx",
           "hash": "4731961929376199421",
           "deps": [
             "npm:react",
@@ -909,92 +625,121 @@
           ]
         },
         {
-          "file": "apps/randomizer/src/styles.scss",
-          "hash": "15395227547853637436"
+          "file": "apps/product-preview-card-component/src/styles/variables.scss",
+          "hash": "9961682652881905385"
         },
         {
-          "file": "apps/randomizer/tailwind.config.js",
-          "hash": "13090734457927965885",
-          "deps": [
-            "npm:@nx/react"
-          ]
+          "file": "apps/product-preview-card-component/style-guide.md",
+          "hash": "7585493612826450099"
         },
         {
-          "file": "apps/randomizer/tsconfig.app.json",
+          "file": "apps/product-preview-card-component/tsconfig.app.json",
           "hash": "7232119452847825095"
         },
         {
-          "file": "apps/randomizer/tsconfig.json",
+          "file": "apps/product-preview-card-component/tsconfig.json",
           "hash": "11166545116916107487"
         },
         {
-          "file": "apps/randomizer/tsconfig.spec.json",
+          "file": "apps/product-preview-card-component/tsconfig.spec.json",
           "hash": "9472099605191632308"
         },
         {
-          "file": "apps/randomizer/vite.config.ts",
-          "hash": "14620565868890912145",
+          "file": "apps/product-preview-card-component/vite.config.ts",
+          "hash": "13811086146122290433",
           "deps": [
             "npm:vite",
             "npm:@vitejs/plugin-react"
           ]
         }
       ],
-      "four-card-feature-section": [
+      "meet-landing-page": [
         {
-          "file": "apps/four-card-feature-section/.eslintrc.json",
+          "file": "apps/meet-landing-page/.eslintrc.json",
           "hash": "11012487992710232822"
         },
         {
-          "file": "apps/four-card-feature-section/README.md",
-          "hash": "13578993378215370749"
+          "file": "apps/meet-landing-page/README.md",
+          "hash": "13282230425163140955"
         },
         {
-          "file": "apps/four-card-feature-section/index.html",
-          "hash": "12315933200295096540"
+          "file": "apps/meet-landing-page/index.html",
+          "hash": "15686193318575369727"
         },
         {
-          "file": "apps/four-card-feature-section/netlify.toml",
-          "hash": "15936978433234713088"
+          "file": "apps/meet-landing-page/jest.config.ts",
+          "hash": "2344029031363849030"
         },
         {
-          "file": "apps/four-card-feature-section/project.json",
-          "hash": "8515944139026648622"
+          "file": "apps/meet-landing-page/netlify.toml",
+          "hash": "10407513165222844406"
         },
         {
-          "file": "apps/four-card-feature-section/public/favicon.png",
+          "file": "apps/meet-landing-page/project.json",
+          "hash": "15018513324582868278"
+        },
+        {
+          "file": "apps/meet-landing-page/public/favicon.png",
           "hash": "12744533118699211984"
         },
         {
-          "file": "apps/four-card-feature-section/src/app/app.module.scss",
+          "file": "apps/meet-landing-page/src/app/app.module.scss",
           "hash": "8887387885984320532"
         },
         {
-          "file": "apps/four-card-feature-section/src/app/app.tsx",
+          "file": "apps/meet-landing-page/src/app/app.tsx",
           "hash": "7531237395960151338"
         },
         {
-          "file": "apps/four-card-feature-section/src/assets/icon-calculator.svg",
-          "hash": "6337203711668338674"
+          "file": "apps/meet-landing-page/src/assets/desktop/image-footer.jpg",
+          "hash": "15945668178064632830"
         },
         {
-          "file": "apps/four-card-feature-section/src/assets/icon-karma.svg",
-          "hash": "2395558962543171063"
+          "file": "apps/meet-landing-page/src/assets/desktop/image-hero-left.png",
+          "hash": "11369061422674609708"
         },
         {
-          "file": "apps/four-card-feature-section/src/assets/icon-supervisor.svg",
-          "hash": "10430169826051945142"
+          "file": "apps/meet-landing-page/src/assets/desktop/image-hero-right.png",
+          "hash": "18139882261018879456"
         },
         {
-          "file": "apps/four-card-feature-section/src/assets/icon-team-builder.svg",
-          "hash": "11569887265841187887"
+          "file": "apps/meet-landing-page/src/assets/desktop/image-man-texting.jpg",
+          "hash": "9669149760190023304"
         },
         {
-          "file": "apps/four-card-feature-section/src/global.scss",
-          "hash": "17571643951501349386"
+          "file": "apps/meet-landing-page/src/assets/desktop/image-men-in-meeting.jpg",
+          "hash": "1135198335643845113"
         },
         {
-          "file": "apps/four-card-feature-section/src/main.tsx",
+          "file": "apps/meet-landing-page/src/assets/desktop/image-woman-in-videocall.jpg",
+          "hash": "14000120064741153947"
+        },
+        {
+          "file": "apps/meet-landing-page/src/assets/desktop/image-women-videochatting.jpg",
+          "hash": "4716950235991545415"
+        },
+        {
+          "file": "apps/meet-landing-page/src/assets/logo.svg",
+          "hash": "11855141492100084198"
+        },
+        {
+          "file": "apps/meet-landing-page/src/assets/mobile/image-footer.jpg",
+          "hash": "8359751062373191904"
+        },
+        {
+          "file": "apps/meet-landing-page/src/assets/tablet/image-footer.jpg",
+          "hash": "8666891468494620220"
+        },
+        {
+          "file": "apps/meet-landing-page/src/assets/tablet/image-hero.png",
+          "hash": "2724635538391628281"
+        },
+        {
+          "file": "apps/meet-landing-page/src/global.scss",
+          "hash": "645360462729105631"
+        },
+        {
+          "file": "apps/meet-landing-page/src/main.tsx",
           "hash": "4731961929376199421",
           "deps": [
             "npm:react",
@@ -1002,32 +747,132 @@
           ]
         },
         {
-          "file": "apps/four-card-feature-section/src/styles/variables.scss",
-          "hash": "17575994672252508917"
+          "file": "apps/meet-landing-page/src/styles/variables.scss",
+          "hash": "10189558294967658152"
         },
         {
-          "file": "apps/four-card-feature-section/style-guide.md",
-          "hash": "5766152964927004581"
-        },
-        {
-          "file": "apps/four-card-feature-section/tsconfig.app.json",
+          "file": "apps/meet-landing-page/tsconfig.app.json",
           "hash": "7232119452847825095"
         },
         {
-          "file": "apps/four-card-feature-section/tsconfig.json",
-          "hash": "11166545116916107487"
+          "file": "apps/meet-landing-page/tsconfig.json",
+          "hash": "824604371006306276"
         },
         {
-          "file": "apps/four-card-feature-section/tsconfig.spec.json",
-          "hash": "9472099605191632308"
+          "file": "apps/meet-landing-page/tsconfig.spec.json",
+          "hash": "11378287594513225419"
         },
         {
-          "file": "apps/four-card-feature-section/vite.config.ts",
-          "hash": "10340171140152270907",
+          "file": "apps/meet-landing-page/vite.config.ts",
+          "hash": "8170096908482460752",
           "deps": [
             "npm:vite",
-            "npm:@vitejs/plugin-react"
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
           ]
+        }
+      ],
+      "article-preview-component": [
+        {
+          "file": "apps/article-preview-component/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/article-preview-component/index.html",
+          "hash": "15804416769525744702"
+        },
+        {
+          "file": "apps/article-preview-component/jest.config.ts",
+          "hash": "1146989671379847980"
+        },
+        {
+          "file": "apps/article-preview-component/project.json",
+          "hash": "3212689421492389447"
+        },
+        {
+          "file": "apps/article-preview-component/src/app/app.module.scss",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "apps/article-preview-component/src/app/app.tsx",
+          "hash": "7531237395960151338"
+        },
+        {
+          "file": "apps/article-preview-component/src/main.tsx",
+          "hash": "4731961929376199421",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/article-preview-component/tsconfig.app.json",
+          "hash": "7232119452847825095"
+        },
+        {
+          "file": "apps/article-preview-component/tsconfig.json",
+          "hash": "824604371006306276"
+        },
+        {
+          "file": "apps/article-preview-component/tsconfig.spec.json",
+          "hash": "11378287594513225419"
+        },
+        {
+          "file": "apps/article-preview-component/vite.config.ts",
+          "hash": "3697161083244888743",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        },
+        {
+          "file": "apps/article-preview-component/README.md",
+          "hash": "6405184446245089762"
+        },
+        {
+          "file": "apps/article-preview-component/src/assets/icon-twitter.svg",
+          "hash": "10376698590668237663"
+        },
+        {
+          "file": "apps/article-preview-component/src/assets/icon-facebook.svg",
+          "hash": "4783816245403423277"
+        },
+        {
+          "file": "apps/article-preview-component/src/assets/icon-share.svg",
+          "hash": "2855304055214466439"
+        },
+        {
+          "file": "apps/article-preview-component/src/assets/drawers.jpg",
+          "hash": "10988474949274893801"
+        },
+        {
+          "file": "apps/article-preview-component/src/assets/avatar-michelle.jpg",
+          "hash": "2347790824738340358"
+        },
+        {
+          "file": "apps/article-preview-component/src/assets/icon-pinterest.svg",
+          "hash": "324422141307290693"
+        },
+        {
+          "file": "apps/article-preview-component/public/favicon.png",
+          "hash": "12744533118699211984"
+        },
+        {
+          "file": "apps/article-preview-component/netlify.toml",
+          "hash": "11933805295169175792"
+        },
+        {
+          "file": "apps/article-preview-component/src/global.scss",
+          "hash": "7161786639772124159"
+        },
+        {
+          "file": "apps/article-preview-component/src/styles/_colors.scss",
+          "hash": "1993026774171501142"
+        },
+        {
+          "file": "apps/article-preview-component/src/styles/_layout.scss",
+          "hash": "3244421341483603138"
         }
       ],
       "social-links-profile": [
@@ -1206,6 +1051,268 @@
         {
           "file": "apps/blog-preview-card/vite.config.ts",
           "hash": "16366620604509450232",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react"
+          ]
+        }
+      ],
+      "randomizer": [
+        {
+          "file": "apps/randomizer/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/randomizer/index.html",
+          "hash": "4550436575073462006"
+        },
+        {
+          "file": "apps/randomizer/postcss.config.js",
+          "hash": "2759402739052110475"
+        },
+        {
+          "file": "apps/randomizer/project.json",
+          "hash": "11909295349094013677"
+        },
+        {
+          "file": "apps/randomizer/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/randomizer/src/app/app.module.scss",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "apps/randomizer/src/app/app.spec.tsx",
+          "hash": "2829752226403106209",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/randomizer/src/app/app.tsx",
+          "hash": "14526911361702769660",
+          "deps": [
+            "npm:classnames"
+          ]
+        },
+        {
+          "file": "apps/randomizer/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/randomizer/src/main.tsx",
+          "hash": "4731961929376199421",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/randomizer/src/styles.scss",
+          "hash": "15395227547853637436"
+        },
+        {
+          "file": "apps/randomizer/tailwind.config.js",
+          "hash": "13090734457927965885",
+          "deps": [
+            "npm:@nx/react"
+          ]
+        },
+        {
+          "file": "apps/randomizer/tsconfig.app.json",
+          "hash": "7232119452847825095"
+        },
+        {
+          "file": "apps/randomizer/tsconfig.json",
+          "hash": "11166545116916107487"
+        },
+        {
+          "file": "apps/randomizer/tsconfig.spec.json",
+          "hash": "9472099605191632308"
+        },
+        {
+          "file": "apps/randomizer/vite.config.ts",
+          "hash": "14620565868890912145",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react"
+          ]
+        }
+      ],
+      "qr-code-component": [
+        {
+          "file": "apps/qr-code-component/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/qr-code-component/README.md",
+          "hash": "4909216303810915565"
+        },
+        {
+          "file": "apps/qr-code-component/index.html",
+          "hash": "11664036598862846942"
+        },
+        {
+          "file": "apps/qr-code-component/netlify.toml",
+          "hash": "8522544587917846040"
+        },
+        {
+          "file": "apps/qr-code-component/project.json",
+          "hash": "4099850431027835604"
+        },
+        {
+          "file": "apps/qr-code-component/public/favicon.png",
+          "hash": "12744533118699211984"
+        },
+        {
+          "file": "apps/qr-code-component/src/app/app.module.scss",
+          "hash": "11906082282327431065"
+        },
+        {
+          "file": "apps/qr-code-component/src/app/app.spec.tsx",
+          "hash": "675253867700085674",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/qr-code-component/src/app/app.tsx",
+          "hash": "10608798604102991773"
+        },
+        {
+          "file": "apps/qr-code-component/src/assets/image-qr-code.png",
+          "hash": "11498568320689125719"
+        },
+        {
+          "file": "apps/qr-code-component/src/assets/screenshot.png",
+          "hash": "618818648800294244"
+        },
+        {
+          "file": "apps/qr-code-component/src/global.scss",
+          "hash": "8755882015161590902"
+        },
+        {
+          "file": "apps/qr-code-component/src/main.tsx",
+          "hash": "4731961929376199421",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/qr-code-component/src/styles/variables.scss",
+          "hash": "13572523198840138734"
+        },
+        {
+          "file": "apps/qr-code-component/style-guide.md",
+          "hash": "5525614580958230172"
+        },
+        {
+          "file": "apps/qr-code-component/tsconfig.app.json",
+          "hash": "7232119452847825095"
+        },
+        {
+          "file": "apps/qr-code-component/tsconfig.json",
+          "hash": "11166545116916107487"
+        },
+        {
+          "file": "apps/qr-code-component/tsconfig.spec.json",
+          "hash": "9472099605191632308"
+        },
+        {
+          "file": "apps/qr-code-component/vite.config.ts",
+          "hash": "375343021393481485",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react"
+          ]
+        }
+      ],
+      "four-card-feature-section": [
+        {
+          "file": "apps/four-card-feature-section/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/four-card-feature-section/README.md",
+          "hash": "13578993378215370749"
+        },
+        {
+          "file": "apps/four-card-feature-section/index.html",
+          "hash": "12315933200295096540"
+        },
+        {
+          "file": "apps/four-card-feature-section/netlify.toml",
+          "hash": "15936978433234713088"
+        },
+        {
+          "file": "apps/four-card-feature-section/project.json",
+          "hash": "8515944139026648622"
+        },
+        {
+          "file": "apps/four-card-feature-section/public/favicon.png",
+          "hash": "12744533118699211984"
+        },
+        {
+          "file": "apps/four-card-feature-section/src/app/app.module.scss",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "apps/four-card-feature-section/src/app/app.tsx",
+          "hash": "7531237395960151338"
+        },
+        {
+          "file": "apps/four-card-feature-section/src/assets/icon-calculator.svg",
+          "hash": "6337203711668338674"
+        },
+        {
+          "file": "apps/four-card-feature-section/src/assets/icon-karma.svg",
+          "hash": "2395558962543171063"
+        },
+        {
+          "file": "apps/four-card-feature-section/src/assets/icon-supervisor.svg",
+          "hash": "10430169826051945142"
+        },
+        {
+          "file": "apps/four-card-feature-section/src/assets/icon-team-builder.svg",
+          "hash": "11569887265841187887"
+        },
+        {
+          "file": "apps/four-card-feature-section/src/global.scss",
+          "hash": "17571643951501349386"
+        },
+        {
+          "file": "apps/four-card-feature-section/src/main.tsx",
+          "hash": "4731961929376199421",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/four-card-feature-section/src/styles/variables.scss",
+          "hash": "17575994672252508917"
+        },
+        {
+          "file": "apps/four-card-feature-section/style-guide.md",
+          "hash": "5766152964927004581"
+        },
+        {
+          "file": "apps/four-card-feature-section/tsconfig.app.json",
+          "hash": "7232119452847825095"
+        },
+        {
+          "file": "apps/four-card-feature-section/tsconfig.json",
+          "hash": "11166545116916107487"
+        },
+        {
+          "file": "apps/four-card-feature-section/tsconfig.spec.json",
+          "hash": "9472099605191632308"
+        },
+        {
+          "file": "apps/four-card-feature-section/vite.config.ts",
+          "hash": "10340171140152270907",
           "deps": [
             "npm:vite",
             "npm:@vitejs/plugin-react"

@@ -210,6 +210,113 @@
         "implicitDependencies": []
       }
     },
+    "article-preview-component": {
+      "name": "article-preview-component",
+      "type": "app",
+      "data": {
+        "root": "apps/article-preview-component",
+        "targets": {
+          "build": {
+            "executor": "@nx/vite:build",
+            "cache": true,
+            "dependsOn": [
+              "^build"
+            ],
+            "inputs": [
+              "production",
+              "^production"
+            ],
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "defaultConfiguration": "production",
+            "options": {
+              "outputPath": "dist/apps/article-preview-component"
+            },
+            "configurations": {
+              "development": {
+                "mode": "development"
+              },
+              "production": {
+                "mode": "production"
+              }
+            }
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production",
+              "{workspaceRoot}/jest.preset.js"
+            ],
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "passWithNoTests": true,
+              "jestConfig": "apps/article-preview-component/jest.config.ts"
+            },
+            "configurations": {
+              "ci": {
+                "ci": true,
+                "codeCoverage": true
+              }
+            }
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "cache": true,
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore",
+              "{workspaceRoot}/eslint.config.js"
+            ],
+            "options": {},
+            "configurations": {}
+          },
+          "serve": {
+            "executor": "@nx/vite:dev-server",
+            "defaultConfiguration": "development",
+            "options": {
+              "buildTarget": "article-preview-component:build"
+            },
+            "configurations": {
+              "development": {
+                "buildTarget": "article-preview-component:build:development",
+                "hmr": true
+              },
+              "production": {
+                "buildTarget": "article-preview-component:build:production",
+                "hmr": false
+              }
+            }
+          },
+          "preview": {
+            "executor": "@nx/vite:preview-server",
+            "defaultConfiguration": "development",
+            "options": {
+              "buildTarget": "article-preview-component:build"
+            },
+            "configurations": {
+              "development": {
+                "buildTarget": "article-preview-component:build:development"
+              },
+              "production": {
+                "buildTarget": "article-preview-component:build:production"
+              }
+            }
+          }
+        },
+        "name": "article-preview-component",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/article-preview-component/src",
+        "projectType": "application",
+        "tags": [],
+        "implicitDependencies": []
+      }
+    },
     "four-card-feature-section": {
       "name": "four-card-feature-section",
       "type": "app",
@@ -14422,6 +14529,33 @@
       {
         "source": "product-preview-card-component",
         "target": "npm:@vitejs/plugin-react",
+        "type": "static"
+      }
+    ],
+    "article-preview-component": [
+      {
+        "source": "article-preview-component",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "article-preview-component",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "article-preview-component",
+        "target": "npm:vite",
+        "type": "static"
+      },
+      {
+        "source": "article-preview-component",
+        "target": "npm:@vitejs/plugin-react",
+        "type": "static"
+      },
+      {
+        "source": "article-preview-component",
+        "target": "npm:@nx/vite",
         "type": "static"
       }
     ],

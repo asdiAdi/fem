@@ -1,0 +1,67 @@
+{
+  "name": "article-preview-component",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/article-preview-component/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/apps/article-preview-component"
+      },
+      "configurations": {
+        "development": {
+          "mode": "development"
+        },
+        "production": {
+          "mode": "production"
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/vite:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "article-preview-component:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "article-preview-component:build:development",
+          "hmr": true
+        },
+        "production": {
+          "buildTarget": "article-preview-component:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "preview": {
+      "executor": "@nx/vite:preview-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "article-preview-component:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "article-preview-component:build:development"
+        },
+        "production": {
+          "buildTarget": "article-preview-component:build:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/article-preview-component/jest.config.ts"
+      }
+    }
+  }
+}
