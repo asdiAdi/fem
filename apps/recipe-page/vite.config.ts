@@ -18,6 +18,14 @@ export default defineConfig({
   },
 
   plugins: [react(), nxViteTsPaths()],
+  resolve: {
+    alias: {
+      src: '/src',
+      app: '/src/app',
+      assets: '/src/assets',
+      styles: '/src/styles',
+    },
+  },
 
   // Uncomment this if you are using workers.
   // worker: {

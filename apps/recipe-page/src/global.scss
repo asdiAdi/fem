@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@use './styles/variables' as v;
+@import 'styles/colors';
 
 //default values
 * {
@@ -8,16 +8,13 @@
   box-sizing: border-box;
 
   //default style-guide.md
-  font-size: 0.938rem; //15px
-  font-family: Outfit, sans-serif;
+  font-size: 1rem;
+  font-family: Young Serif, Outfit, sans-serif;
   font-weight: 400;
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  background-color: v.$light-gray;
-  text-align: center;
+  background-color: $eggshell;
 
   //center main content
   display: flex;
