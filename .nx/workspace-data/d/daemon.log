@@ -3241,3 +3241,65 @@
 [NX Daemon Server] - 2024-06-21T01:47:25.390Z - Done responding to the client project-graph
 [NX Daemon Server] - 2024-06-21T01:47:25.390Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
 [NX Daemon Server] - 2024-06-21T01:47:25.393Z - Established a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-08-20T23:56:58.068Z - Started listening on: /var/folders/4y/4d222jsn1nj08yb0zj2n26zr0000gn/T/5e1295574b5b7176b4d5/d.sock
+[NX Daemon Server] - 2024-08-20T23:56:58.070Z - [WATCHER]: Subscribed to changes within: /Users/carladi/Documents/portfolio (native)
+[NX Daemon Server] - 2024-08-20T23:56:58.071Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-08-20T23:56:58.071Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-08-20T23:56:58.072Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-08-20T23:56:58.073Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-08-20T23:56:58.073Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-08-20T23:56:58.073Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-08-20T23:56:58.088Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-08-20T23:56:58.088Z - Done responding to the client handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-08-20T23:56:58.088Z - Handled GET_NX_WORKSPACE_FILES. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-08-20T23:56:58.130Z - [WATCHER]: .nx/workspace-data/d/server-process.json was modified
+[NX Daemon Server] - 2024-08-20T23:56:58.237Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-08-20T23:56:58.237Z - [REQUEST]: .nx/workspace-data/d/server-process.json
+[NX Daemon Server] - 2024-08-20T23:56:58.238Z - [REQUEST]: 
+[NX Daemon Server] - 2024-08-20T23:56:58.276Z - Time taken for 'Load Nx Plugin: /Users/carladi/Documents/portfolio/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 4.788208999999995ms
+[NX Daemon Server] - 2024-08-20T23:56:59.135Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-08-20T23:57:01.049Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-08-20T23:57:01.102Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-08-20T23:57:04.982Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-08-20T23:57:35.143Z - [WATCHER]: package-lock.json was modified
+[NX Daemon Server] - 2024-08-20T23:57:35.144Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-08-20T23:57:35.346Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-08-20T23:57:35.346Z - [REQUEST]: package-lock.json
+[NX Daemon Server] - 2024-08-20T23:57:35.346Z - [REQUEST]: 
+[NX Daemon Server] - 2024-08-20T23:57:35.426Z - Time taken for 'hash changed files from watcher' 0.8802910000013071ms
+[NX Daemon Server] - 2024-08-20T23:57:53.264Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-08-20T23:57:53.265Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-08-20T23:57:53.265Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-08-20T23:57:53.267Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"FORCE_SHUTDOWN"}
+Error: Unsupported payload sent to daemon server: {"type":"FORCE_SHUTDOWN"}
+    at handleMessage (/Users/carladi/Documents/portfolio/node_modules/nx/src/daemon/server/server.js:125:104)
+    at /Users/carladi/Documents/portfolio/node_modules/nx/src/daemon/server/server.js:55:15
+    at Socket.<anonymous> (/Users/carladi/Documents/portfolio/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX Daemon Server] - 2024-08-20T23:57:53.268Z - Done responding to the client null
+[NX Daemon Server] - 2024-08-20T23:58:05.221Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-08-20T23:58:05.288Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-08-20T23:58:05.289Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-08-20T23:58:05.693Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-08-20T23:58:05.693Z - [REQUEST]: package.json,migrations.json
+[NX Daemon Server] - 2024-08-20T23:58:05.693Z - [REQUEST]: 
+[NX Daemon Server] - 2024-08-20T23:58:05.743Z - Time taken for 'hash changed files from watcher' 1.566541000007419ms
+[NX Daemon Server] - 2024-08-20T23:59:02.805Z - Started listening on: /var/folders/4y/4d222jsn1nj08yb0zj2n26zr0000gn/T/5e1295574b5b7176b4d5/d.sock
+[NX Daemon Server] - 2024-08-20T23:59:02.813Z - [WATCHER]: Subscribed to changes within: /Users/carladi/Documents/portfolio (native)
+[NX Daemon Server] - 2024-08-20T23:59:02.814Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-08-20T23:59:02.814Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-08-20T23:59:02.815Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-08-20T23:59:02.815Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-08-20T23:59:02.816Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-08-20T23:59:02.816Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-08-20T23:59:02.816Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-08-20T23:59:02.816Z - [WATCHER]: Stopping the watcher for /Users/carladi/Documents/portfolio (sources)
+[NX Daemon Server] - 2024-08-20T23:59:02.816Z - [WATCHER]: Stopping the watcher for /Users/carladi/Documents/portfolio (outputs)
+[NX Daemon Server] - 2024-08-20T23:59:02.876Z - [WATCHER]: Stopping the watcher for /Users/carladi/Documents/portfolio (sources)
+[NX Daemon Server] - 2024-08-20T23:59:02.876Z - [WATCHER]: Stopping the watcher for /Users/carladi/Documents/portfolio (sources)
+[NX Daemon Server] - 2024-08-20T23:59:02.876Z - [WATCHER]: Stopping the watcher for /Users/carladi/Documents/portfolio (outputs)
+[NX Daemon Server] - 2024-08-20T23:59:02.876Z - Server stopped because: "this process is no longer the current daemon (native)"

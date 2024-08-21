@@ -5,17 +5,14 @@
       "type": "app",
       "data": {
         "root": "apps/huddle-landing-page-with-curved-sections",
+        "name": "huddle-landing-page-with-curved-sections",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/huddle-landing-page-with-curved-sections/src",
+        "projectType": "application",
+        "tags": [],
         "targets": {
           "build": {
             "executor": "@nx/vite:build",
-            "cache": true,
-            "dependsOn": [
-              "^build"
-            ],
-            "inputs": [
-              "production",
-              "^production"
-            ],
             "outputs": [
               "{options.outputPath}"
             ],
@@ -30,37 +27,16 @@
               "production": {
                 "mode": "production"
               }
-            }
-          },
-          "test": {
-            "executor": "@nx/vite:test",
-            "cache": true,
-            "inputs": [
-              "default",
-              "^production"
-            ],
-            "outputs": [
-              "{options.reportsDirectory}"
-            ],
-            "options": {
-              "reportsDirectory": "../../coverage/apps/huddle-landing-page-with-curved-sections"
             },
-            "configurations": {}
-          },
-          "lint": {
-            "executor": "@nx/eslint:lint",
+            "parallelism": true,
             "cache": true,
+            "dependsOn": [
+              "^build"
+            ],
             "inputs": [
-              "default",
-              "{workspaceRoot}/.eslintrc.json",
-              "{workspaceRoot}/.eslintignore",
-              "{workspaceRoot}/eslint.config.js"
-            ],
-            "outputs": [
-              "{options.outputFile}"
-            ],
-            "options": {},
-            "configurations": {}
+              "production",
+              "^production"
+            ]
           },
           "serve": {
             "executor": "@nx/vite:dev-server",
@@ -77,7 +53,8 @@
                 "buildTarget": "huddle-landing-page-with-curved-sections:build:production",
                 "hmr": false
               }
-            }
+            },
+            "parallelism": true
           },
           "preview": {
             "executor": "@nx/vite:preview-server",
@@ -92,21 +69,50 @@
               "production": {
                 "buildTarget": "huddle-landing-page-with-curved-sections:build:production"
               }
-            }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/vite:test",
+            "outputs": [
+              "{options.reportsDirectory}"
+            ],
+            "options": {
+              "reportsDirectory": "../../coverage/apps/huddle-landing-page-with-curved-sections"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production"
+            ]
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "configurations": {},
+            "options": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore",
+              "{workspaceRoot}/eslint.config.js"
+            ]
           },
           "serve-static": {
             "executor": "@nx/web:file-server",
             "options": {
               "buildTarget": "huddle-landing-page-with-curved-sections:build"
             },
-            "configurations": {}
+            "configurations": {},
+            "parallelism": true
           }
         },
-        "name": "huddle-landing-page-with-curved-sections",
-        "$schema": "../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "apps/huddle-landing-page-with-curved-sections/src",
-        "projectType": "application",
-        "tags": [],
         "implicitDependencies": []
       }
     },
@@ -115,17 +121,14 @@
       "type": "app",
       "data": {
         "root": "apps/product-preview-card-component",
+        "name": "product-preview-card-component",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/product-preview-card-component/src",
+        "projectType": "application",
+        "tags": [],
         "targets": {
           "build": {
             "executor": "@nx/vite:build",
-            "cache": true,
-            "dependsOn": [
-              "^build"
-            ],
-            "inputs": [
-              "production",
-              "^production"
-            ],
             "outputs": [
               "{options.outputPath}"
             ],
@@ -140,34 +143,16 @@
               "production": {
                 "mode": "production"
               }
-            }
-          },
-          "test": {
-            "executor": "@nx/vite:test",
-            "cache": true,
-            "inputs": [
-              "default",
-              "^production"
-            ],
-            "outputs": [
-              "{options.reportsDirectory}"
-            ],
-            "options": {
-              "reportsDirectory": "../../coverage/apps/product-preview-card-component"
             },
-            "configurations": {}
-          },
-          "lint": {
-            "executor": "@nx/eslint:lint",
+            "parallelism": true,
             "cache": true,
-            "inputs": [
-              "default",
-              "{workspaceRoot}/.eslintrc.json",
-              "{workspaceRoot}/.eslintignore",
-              "{workspaceRoot}/eslint.config.js"
+            "dependsOn": [
+              "^build"
             ],
-            "options": {},
-            "configurations": {}
+            "inputs": [
+              "production",
+              "^production"
+            ]
           },
           "serve": {
             "executor": "@nx/vite:dev-server",
@@ -184,7 +169,8 @@
                 "buildTarget": "product-preview-card-component:build:production",
                 "hmr": false
               }
-            }
+            },
+            "parallelism": true
           },
           "preview": {
             "executor": "@nx/vite:preview-server",
@@ -199,14 +185,39 @@
               "production": {
                 "buildTarget": "product-preview-card-component:build:production"
               }
-            }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/vite:test",
+            "outputs": [
+              "{options.reportsDirectory}"
+            ],
+            "options": {
+              "reportsDirectory": "../../coverage/apps/product-preview-card-component"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production"
+            ]
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore",
+              "{workspaceRoot}/eslint.config.js"
+            ]
           }
         },
-        "name": "product-preview-card-component",
-        "$schema": "../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "apps/product-preview-card-component/src",
-        "projectType": "application",
-        "tags": [],
         "implicitDependencies": []
       }
     },
@@ -215,17 +226,14 @@
       "type": "app",
       "data": {
         "root": "apps/article-preview-component",
+        "name": "article-preview-component",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/article-preview-component/src",
+        "projectType": "application",
+        "tags": [],
         "targets": {
           "build": {
             "executor": "@nx/vite:build",
-            "cache": true,
-            "dependsOn": [
-              "^build"
-            ],
-            "inputs": [
-              "production",
-              "^production"
-            ],
             "outputs": [
               "{options.outputPath}"
             ],
@@ -240,41 +248,16 @@
               "production": {
                 "mode": "production"
               }
-            }
-          },
-          "test": {
-            "executor": "@nx/jest:jest",
-            "cache": true,
-            "inputs": [
-              "default",
-              "^production",
-              "{workspaceRoot}/jest.preset.js"
-            ],
-            "outputs": [
-              "{workspaceRoot}/coverage/{projectRoot}"
-            ],
-            "options": {
-              "passWithNoTests": true,
-              "jestConfig": "apps/article-preview-component/jest.config.ts"
             },
-            "configurations": {
-              "ci": {
-                "ci": true,
-                "codeCoverage": true
-              }
-            }
-          },
-          "lint": {
-            "executor": "@nx/eslint:lint",
+            "parallelism": true,
             "cache": true,
-            "inputs": [
-              "default",
-              "{workspaceRoot}/.eslintrc.json",
-              "{workspaceRoot}/.eslintignore",
-              "{workspaceRoot}/eslint.config.js"
+            "dependsOn": [
+              "^build"
             ],
-            "options": {},
-            "configurations": {}
+            "inputs": [
+              "production",
+              "^production"
+            ]
           },
           "serve": {
             "executor": "@nx/vite:dev-server",
@@ -291,7 +274,8 @@
                 "buildTarget": "article-preview-component:build:production",
                 "hmr": false
               }
-            }
+            },
+            "parallelism": true
           },
           "preview": {
             "executor": "@nx/vite:preview-server",
@@ -306,14 +290,46 @@
               "production": {
                 "buildTarget": "article-preview-component:build:production"
               }
-            }
+            },
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore",
+              "{workspaceRoot}/eslint.config.js"
+            ]
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "apps/article-preview-component/jest.config.ts",
+              "passWithNoTests": true
+            },
+            "configurations": {
+              "ci": {
+                "ci": true,
+                "codeCoverage": true
+              }
+            },
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production",
+              "{workspaceRoot}/jest.preset.js"
+            ]
           }
         },
-        "name": "article-preview-component",
-        "$schema": "../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "apps/article-preview-component/src",
-        "projectType": "application",
-        "tags": [],
         "implicitDependencies": []
       }
     },
@@ -322,17 +338,14 @@
       "type": "app",
       "data": {
         "root": "apps/four-card-feature-section",
+        "name": "four-card-feature-section",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/four-card-feature-section/src",
+        "projectType": "application",
+        "tags": [],
         "targets": {
           "build": {
             "executor": "@nx/vite:build",
-            "cache": true,
-            "dependsOn": [
-              "^build"
-            ],
-            "inputs": [
-              "production",
-              "^production"
-            ],
             "outputs": [
               "{options.outputPath}"
             ],
@@ -347,34 +360,16 @@
               "production": {
                 "mode": "production"
               }
-            }
-          },
-          "test": {
-            "executor": "@nx/vite:test",
-            "cache": true,
-            "inputs": [
-              "default",
-              "^production"
-            ],
-            "outputs": [
-              "{options.reportsDirectory}"
-            ],
-            "options": {
-              "reportsDirectory": "../../coverage/apps/four-card-feature-section"
             },
-            "configurations": {}
-          },
-          "lint": {
-            "executor": "@nx/eslint:lint",
+            "parallelism": true,
             "cache": true,
-            "inputs": [
-              "default",
-              "{workspaceRoot}/.eslintrc.json",
-              "{workspaceRoot}/.eslintignore",
-              "{workspaceRoot}/eslint.config.js"
+            "dependsOn": [
+              "^build"
             ],
-            "options": {},
-            "configurations": {}
+            "inputs": [
+              "production",
+              "^production"
+            ]
           },
           "serve": {
             "executor": "@nx/vite:dev-server",
@@ -391,7 +386,8 @@
                 "buildTarget": "four-card-feature-section:build:production",
                 "hmr": false
               }
-            }
+            },
+            "parallelism": true
           },
           "preview": {
             "executor": "@nx/vite:preview-server",
@@ -406,14 +402,39 @@
               "production": {
                 "buildTarget": "four-card-feature-section:build:production"
               }
-            }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/vite:test",
+            "outputs": [
+              "{options.reportsDirectory}"
+            ],
+            "options": {
+              "reportsDirectory": "../../coverage/apps/four-card-feature-section"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production"
+            ]
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore",
+              "{workspaceRoot}/eslint.config.js"
+            ]
           }
         },
-        "name": "four-card-feature-section",
-        "$schema": "../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "apps/four-card-feature-section/src",
-        "projectType": "application",
-        "tags": [],
         "implicitDependencies": []
       }
     },
@@ -422,17 +443,14 @@
       "type": "app",
       "data": {
         "root": "apps/testimonials-grid-section",
+        "name": "testimonials-grid-section",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/testimonials-grid-section/src",
+        "projectType": "application",
+        "tags": [],
         "targets": {
           "build": {
             "executor": "@nx/vite:build",
-            "cache": true,
-            "dependsOn": [
-              "^build"
-            ],
-            "inputs": [
-              "production",
-              "^production"
-            ],
             "outputs": [
               "{options.outputPath}"
             ],
@@ -447,34 +465,16 @@
               "production": {
                 "mode": "production"
               }
-            }
-          },
-          "test": {
-            "executor": "@nx/vite:test",
-            "cache": true,
-            "inputs": [
-              "default",
-              "^production"
-            ],
-            "outputs": [
-              "{options.reportsDirectory}"
-            ],
-            "options": {
-              "reportsDirectory": "../../coverage/apps/testimonials-grid-section"
             },
-            "configurations": {}
-          },
-          "lint": {
-            "executor": "@nx/eslint:lint",
+            "parallelism": true,
             "cache": true,
-            "inputs": [
-              "default",
-              "{workspaceRoot}/.eslintrc.json",
-              "{workspaceRoot}/.eslintignore",
-              "{workspaceRoot}/eslint.config.js"
+            "dependsOn": [
+              "^build"
             ],
-            "options": {},
-            "configurations": {}
+            "inputs": [
+              "production",
+              "^production"
+            ]
           },
           "serve": {
             "executor": "@nx/vite:dev-server",
@@ -491,7 +491,8 @@
                 "buildTarget": "testimonials-grid-section:build:production",
                 "hmr": false
               }
-            }
+            },
+            "parallelism": true
           },
           "preview": {
             "executor": "@nx/vite:preview-server",
@@ -506,14 +507,39 @@
               "production": {
                 "buildTarget": "testimonials-grid-section:build:production"
               }
-            }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/vite:test",
+            "outputs": [
+              "{options.reportsDirectory}"
+            ],
+            "options": {
+              "reportsDirectory": "../../coverage/apps/testimonials-grid-section"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production"
+            ]
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore",
+              "{workspaceRoot}/eslint.config.js"
+            ]
           }
         },
-        "name": "testimonials-grid-section",
-        "$schema": "../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "apps/testimonials-grid-section/src",
-        "projectType": "application",
-        "tags": [],
         "implicitDependencies": []
       }
     },
@@ -522,17 +548,14 @@
       "type": "app",
       "data": {
         "root": "apps/social-links-profile",
+        "name": "social-links-profile",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/social-links-profile/src",
+        "projectType": "application",
+        "tags": [],
         "targets": {
           "build": {
             "executor": "@nx/vite:build",
-            "cache": true,
-            "dependsOn": [
-              "^build"
-            ],
-            "inputs": [
-              "production",
-              "^production"
-            ],
             "outputs": [
               "{options.outputPath}"
             ],
@@ -547,34 +570,16 @@
               "production": {
                 "mode": "production"
               }
-            }
-          },
-          "test": {
-            "executor": "@nx/vite:test",
-            "cache": true,
-            "inputs": [
-              "default",
-              "^production"
-            ],
-            "outputs": [
-              "{options.reportsDirectory}"
-            ],
-            "options": {
-              "reportsDirectory": "../../coverage/apps/social-links-profile"
             },
-            "configurations": {}
-          },
-          "lint": {
-            "executor": "@nx/eslint:lint",
+            "parallelism": true,
             "cache": true,
-            "inputs": [
-              "default",
-              "{workspaceRoot}/.eslintrc.json",
-              "{workspaceRoot}/.eslintignore",
-              "{workspaceRoot}/eslint.config.js"
+            "dependsOn": [
+              "^build"
             ],
-            "options": {},
-            "configurations": {}
+            "inputs": [
+              "production",
+              "^production"
+            ]
           },
           "serve": {
             "executor": "@nx/vite:dev-server",
@@ -591,7 +596,8 @@
                 "buildTarget": "social-links-profile:build:production",
                 "hmr": false
               }
-            }
+            },
+            "parallelism": true
           },
           "preview": {
             "executor": "@nx/vite:preview-server",
@@ -606,14 +612,39 @@
               "production": {
                 "buildTarget": "social-links-profile:build:production"
               }
-            }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/vite:test",
+            "outputs": [
+              "{options.reportsDirectory}"
+            ],
+            "options": {
+              "reportsDirectory": "../../coverage/apps/social-links-profile"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production"
+            ]
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore",
+              "{workspaceRoot}/eslint.config.js"
+            ]
           }
         },
-        "name": "social-links-profile",
-        "$schema": "../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "apps/social-links-profile/src",
-        "projectType": "application",
-        "tags": [],
         "implicitDependencies": []
       }
     },
@@ -622,17 +653,14 @@
       "type": "app",
       "data": {
         "root": "apps/blog-preview-card",
+        "name": "blog-preview-card",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/blog-preview-card/src",
+        "projectType": "application",
+        "tags": [],
         "targets": {
           "build": {
             "executor": "@nx/vite:build",
-            "cache": true,
-            "dependsOn": [
-              "^build"
-            ],
-            "inputs": [
-              "production",
-              "^production"
-            ],
             "outputs": [
               "{options.outputPath}"
             ],
@@ -647,34 +675,16 @@
               "production": {
                 "mode": "production"
               }
-            }
-          },
-          "test": {
-            "executor": "@nx/vite:test",
-            "cache": true,
-            "inputs": [
-              "default",
-              "^production"
-            ],
-            "outputs": [
-              "{options.reportsDirectory}"
-            ],
-            "options": {
-              "reportsDirectory": "../../coverage/apps/blog-preview-card"
             },
-            "configurations": {}
-          },
-          "lint": {
-            "executor": "@nx/eslint:lint",
+            "parallelism": true,
             "cache": true,
-            "inputs": [
-              "default",
-              "{workspaceRoot}/.eslintrc.json",
-              "{workspaceRoot}/.eslintignore",
-              "{workspaceRoot}/eslint.config.js"
+            "dependsOn": [
+              "^build"
             ],
-            "options": {},
-            "configurations": {}
+            "inputs": [
+              "production",
+              "^production"
+            ]
           },
           "serve": {
             "executor": "@nx/vite:dev-server",
@@ -691,7 +701,8 @@
                 "buildTarget": "blog-preview-card:build:production",
                 "hmr": false
               }
-            }
+            },
+            "parallelism": true
           },
           "preview": {
             "executor": "@nx/vite:preview-server",
@@ -706,14 +717,39 @@
               "production": {
                 "buildTarget": "blog-preview-card:build:production"
               }
-            }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/vite:test",
+            "outputs": [
+              "{options.reportsDirectory}"
+            ],
+            "options": {
+              "reportsDirectory": "../../coverage/apps/blog-preview-card"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production"
+            ]
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore",
+              "{workspaceRoot}/eslint.config.js"
+            ]
           }
         },
-        "name": "blog-preview-card",
-        "$schema": "../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "apps/blog-preview-card/src",
-        "projectType": "application",
-        "tags": [],
         "implicitDependencies": []
       }
     },
@@ -722,17 +758,14 @@
       "type": "app",
       "data": {
         "root": "apps/meet-landing-page",
+        "name": "meet-landing-page",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/meet-landing-page/src",
+        "projectType": "application",
+        "tags": [],
         "targets": {
           "build": {
             "executor": "@nx/vite:build",
-            "cache": true,
-            "dependsOn": [
-              "^build"
-            ],
-            "inputs": [
-              "production",
-              "^production"
-            ],
             "outputs": [
               "{options.outputPath}"
             ],
@@ -747,41 +780,16 @@
               "production": {
                 "mode": "production"
               }
-            }
-          },
-          "test": {
-            "executor": "@nx/jest:jest",
-            "cache": true,
-            "inputs": [
-              "default",
-              "^production",
-              "{workspaceRoot}/jest.preset.js"
-            ],
-            "outputs": [
-              "{workspaceRoot}/coverage/{projectRoot}"
-            ],
-            "options": {
-              "passWithNoTests": true,
-              "jestConfig": "apps/meet-landing-page/jest.config.ts"
             },
-            "configurations": {
-              "ci": {
-                "ci": true,
-                "codeCoverage": true
-              }
-            }
-          },
-          "lint": {
-            "executor": "@nx/eslint:lint",
+            "parallelism": true,
             "cache": true,
-            "inputs": [
-              "default",
-              "{workspaceRoot}/.eslintrc.json",
-              "{workspaceRoot}/.eslintignore",
-              "{workspaceRoot}/eslint.config.js"
+            "dependsOn": [
+              "^build"
             ],
-            "options": {},
-            "configurations": {}
+            "inputs": [
+              "production",
+              "^production"
+            ]
           },
           "serve": {
             "executor": "@nx/vite:dev-server",
@@ -798,7 +806,8 @@
                 "buildTarget": "meet-landing-page:build:production",
                 "hmr": false
               }
-            }
+            },
+            "parallelism": true
           },
           "preview": {
             "executor": "@nx/vite:preview-server",
@@ -813,14 +822,46 @@
               "production": {
                 "buildTarget": "meet-landing-page:build:production"
               }
-            }
+            },
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore",
+              "{workspaceRoot}/eslint.config.js"
+            ]
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "apps/meet-landing-page/jest.config.ts",
+              "passWithNoTests": true
+            },
+            "configurations": {
+              "ci": {
+                "ci": true,
+                "codeCoverage": true
+              }
+            },
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production",
+              "{workspaceRoot}/jest.preset.js"
+            ]
           }
         },
-        "name": "meet-landing-page",
-        "$schema": "../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "apps/meet-landing-page/src",
-        "projectType": "application",
-        "tags": [],
         "implicitDependencies": []
       }
     },
@@ -829,17 +870,14 @@
       "type": "app",
       "data": {
         "root": "apps/qr-code-component",
+        "name": "qr-code-component",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/qr-code-component/src",
+        "projectType": "application",
+        "tags": [],
         "targets": {
           "build": {
             "executor": "@nx/vite:build",
-            "cache": true,
-            "dependsOn": [
-              "^build"
-            ],
-            "inputs": [
-              "production",
-              "^production"
-            ],
             "outputs": [
               "{options.outputPath}"
             ],
@@ -854,34 +892,16 @@
               "production": {
                 "mode": "production"
               }
-            }
-          },
-          "test": {
-            "executor": "@nx/vite:test",
-            "cache": true,
-            "inputs": [
-              "default",
-              "^production"
-            ],
-            "outputs": [
-              "{options.reportsDirectory}"
-            ],
-            "options": {
-              "reportsDirectory": "../../coverage/apps/qr-code-component"
             },
-            "configurations": {}
-          },
-          "lint": {
-            "executor": "@nx/eslint:lint",
+            "parallelism": true,
             "cache": true,
-            "inputs": [
-              "default",
-              "{workspaceRoot}/.eslintrc.json",
-              "{workspaceRoot}/.eslintignore",
-              "{workspaceRoot}/eslint.config.js"
+            "dependsOn": [
+              "^build"
             ],
-            "options": {},
-            "configurations": {}
+            "inputs": [
+              "production",
+              "^production"
+            ]
           },
           "serve": {
             "executor": "@nx/vite:dev-server",
@@ -898,7 +918,8 @@
                 "buildTarget": "qr-code-component:build:production",
                 "hmr": false
               }
-            }
+            },
+            "parallelism": true
           },
           "preview": {
             "executor": "@nx/vite:preview-server",
@@ -913,14 +934,39 @@
               "production": {
                 "buildTarget": "qr-code-component:build:production"
               }
-            }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/vite:test",
+            "outputs": [
+              "{options.reportsDirectory}"
+            ],
+            "options": {
+              "reportsDirectory": "../../coverage/apps/qr-code-component"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production"
+            ]
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore",
+              "{workspaceRoot}/eslint.config.js"
+            ]
           }
         },
-        "name": "qr-code-component",
-        "$schema": "../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "apps/qr-code-component/src",
-        "projectType": "application",
-        "tags": [],
         "implicitDependencies": []
       }
     },
@@ -929,17 +975,14 @@
       "type": "app",
       "data": {
         "root": "apps/recipe-page",
+        "name": "recipe-page",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/recipe-page/src",
+        "projectType": "application",
+        "tags": [],
         "targets": {
           "build": {
             "executor": "@nx/vite:build",
-            "cache": true,
-            "dependsOn": [
-              "^build"
-            ],
-            "inputs": [
-              "production",
-              "^production"
-            ],
             "outputs": [
               "{options.outputPath}"
             ],
@@ -954,34 +997,16 @@
               "production": {
                 "mode": "production"
               }
-            }
-          },
-          "test": {
-            "executor": "@nx/vite:test",
-            "cache": true,
-            "inputs": [
-              "default",
-              "^production"
-            ],
-            "outputs": [
-              "{options.reportsDirectory}"
-            ],
-            "options": {
-              "reportsDirectory": "../../coverage/apps/recipe-page"
             },
-            "configurations": {}
-          },
-          "lint": {
-            "executor": "@nx/eslint:lint",
+            "parallelism": true,
             "cache": true,
-            "inputs": [
-              "default",
-              "{workspaceRoot}/.eslintrc.json",
-              "{workspaceRoot}/.eslintignore",
-              "{workspaceRoot}/eslint.config.js"
+            "dependsOn": [
+              "^build"
             ],
-            "options": {},
-            "configurations": {}
+            "inputs": [
+              "production",
+              "^production"
+            ]
           },
           "serve": {
             "executor": "@nx/vite:dev-server",
@@ -998,7 +1023,8 @@
                 "buildTarget": "recipe-page:build:production",
                 "hmr": false
               }
-            }
+            },
+            "parallelism": true
           },
           "preview": {
             "executor": "@nx/vite:preview-server",
@@ -1013,14 +1039,39 @@
               "production": {
                 "buildTarget": "recipe-page:build:production"
               }
-            }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/vite:test",
+            "outputs": [
+              "{options.reportsDirectory}"
+            ],
+            "options": {
+              "reportsDirectory": "../../coverage/apps/recipe-page"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production"
+            ]
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore",
+              "{workspaceRoot}/eslint.config.js"
+            ]
           }
         },
-        "name": "recipe-page",
-        "$schema": "../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "apps/recipe-page/src",
-        "projectType": "application",
-        "tags": [],
         "implicitDependencies": []
       }
     },
@@ -1029,17 +1080,14 @@
       "type": "app",
       "data": {
         "root": "apps/randomizer",
+        "name": "randomizer",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/randomizer/src",
+        "projectType": "application",
+        "tags": [],
         "targets": {
           "build": {
             "executor": "@nx/vite:build",
-            "cache": true,
-            "dependsOn": [
-              "^build"
-            ],
-            "inputs": [
-              "production",
-              "^production"
-            ],
             "outputs": [
               "{options.outputPath}"
             ],
@@ -1054,34 +1102,16 @@
               "production": {
                 "mode": "production"
               }
-            }
-          },
-          "test": {
-            "executor": "@nx/vite:test",
-            "cache": true,
-            "inputs": [
-              "default",
-              "^production"
-            ],
-            "outputs": [
-              "{options.reportsDirectory}"
-            ],
-            "options": {
-              "reportsDirectory": "../../coverage/apps/randomizer"
             },
-            "configurations": {}
-          },
-          "lint": {
-            "executor": "@nx/eslint:lint",
+            "parallelism": true,
             "cache": true,
-            "inputs": [
-              "default",
-              "{workspaceRoot}/.eslintrc.json",
-              "{workspaceRoot}/.eslintignore",
-              "{workspaceRoot}/eslint.config.js"
+            "dependsOn": [
+              "^build"
             ],
-            "options": {},
-            "configurations": {}
+            "inputs": [
+              "production",
+              "^production"
+            ]
           },
           "serve": {
             "executor": "@nx/vite:dev-server",
@@ -1098,7 +1128,8 @@
                 "buildTarget": "randomizer:build:production",
                 "hmr": false
               }
-            }
+            },
+            "parallelism": true
           },
           "preview": {
             "executor": "@nx/vite:preview-server",
@@ -1113,7 +1144,37 @@
               "production": {
                 "buildTarget": "randomizer:build:production"
               }
-            }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/vite:test",
+            "outputs": [
+              "{options.reportsDirectory}"
+            ],
+            "options": {
+              "reportsDirectory": "../../coverage/apps/randomizer"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production"
+            ]
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore",
+              "{workspaceRoot}/eslint.config.js"
+            ]
           },
           "serve-static": {
             "executor": "@nx/web:file-server",
@@ -1121,14 +1182,10 @@
               "buildTarget": "randomizer:build",
               "spa": true
             },
-            "configurations": {}
+            "configurations": {},
+            "parallelism": true
           }
         },
-        "name": "randomizer",
-        "$schema": "../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "apps/randomizer/src",
-        "projectType": "application",
-        "tags": [],
         "implicitDependencies": []
       }
     },
@@ -1137,17 +1194,14 @@
       "type": "app",
       "data": {
         "root": "apps/algorithm",
+        "name": "algorithm",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/algorithm/src",
+        "projectType": "application",
+        "tags": [],
         "targets": {
           "build": {
             "executor": "@nx/vite:build",
-            "cache": true,
-            "dependsOn": [
-              "^build"
-            ],
-            "inputs": [
-              "production",
-              "^production"
-            ],
             "outputs": [
               "{options.outputPath}"
             ],
@@ -1162,42 +1216,16 @@
               "production": {
                 "mode": "production"
               }
-            }
-          },
-          "test": {
-            "executor": "@nx/jest:jest",
-            "cache": true,
-            "inputs": [
-              "default",
-              "^production",
-              "{workspaceRoot}/jest.preset.js"
-            ],
-            "outputs": [
-              "{workspaceRoot}/coverage/{projectRoot}"
-            ],
-            "options": {
-              "passWithNoTests": true,
-              "jestConfig": "apps/algorithm/jest.config.ts",
-              "silent": false
             },
-            "configurations": {
-              "ci": {
-                "ci": true,
-                "codeCoverage": true
-              }
-            }
-          },
-          "lint": {
-            "executor": "@nx/eslint:lint",
+            "parallelism": true,
             "cache": true,
-            "inputs": [
-              "default",
-              "{workspaceRoot}/.eslintrc.json",
-              "{workspaceRoot}/.eslintignore",
-              "{workspaceRoot}/eslint.config.js"
+            "dependsOn": [
+              "^build"
             ],
-            "options": {},
-            "configurations": {}
+            "inputs": [
+              "production",
+              "^production"
+            ]
           },
           "serve": {
             "executor": "@nx/vite:dev-server",
@@ -1214,7 +1242,8 @@
                 "buildTarget": "algorithm:build:production",
                 "hmr": false
               }
-            }
+            },
+            "parallelism": true
           },
           "preview": {
             "executor": "@nx/vite:preview-server",
@@ -1229,14 +1258,47 @@
               "production": {
                 "buildTarget": "algorithm:build:production"
               }
-            }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "apps/algorithm/jest.config.ts",
+              "silent": false,
+              "passWithNoTests": true
+            },
+            "configurations": {
+              "ci": {
+                "ci": true,
+                "codeCoverage": true
+              }
+            },
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production",
+              "{workspaceRoot}/jest.preset.js"
+            ]
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore",
+              "{workspaceRoot}/eslint.config.js"
+            ]
           }
         },
-        "name": "algorithm",
-        "$schema": "../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "apps/algorithm/src",
-        "projectType": "application",
-        "tags": [],
         "implicitDependencies": []
       }
     }
@@ -14508,11 +14570,6 @@
         "source": "huddle-landing-page-with-curved-sections",
         "target": "npm:@vitejs/plugin-react",
         "type": "static"
-      },
-      {
-        "source": "huddle-landing-page-with-curved-sections",
-        "target": "npm:@nx/vite",
-        "type": "static"
       }
     ],
     "product-preview-card-component": [
@@ -14534,11 +14591,6 @@
       {
         "source": "product-preview-card-component",
         "target": "npm:@vitejs/plugin-react",
-        "type": "static"
-      },
-      {
-        "source": "product-preview-card-component",
-        "target": "npm:@nx/vite",
         "type": "static"
       }
     ],
@@ -14562,11 +14614,6 @@
         "source": "article-preview-component",
         "target": "npm:@vitejs/plugin-react",
         "type": "static"
-      },
-      {
-        "source": "article-preview-component",
-        "target": "npm:@nx/vite",
-        "type": "static"
       }
     ],
     "four-card-feature-section": [
@@ -14589,11 +14636,6 @@
         "source": "four-card-feature-section",
         "target": "npm:@vitejs/plugin-react",
         "type": "static"
-      },
-      {
-        "source": "four-card-feature-section",
-        "target": "npm:@nx/vite",
-        "type": "static"
       }
     ],
     "testimonials-grid-section": [
@@ -14615,11 +14657,6 @@
       {
         "source": "testimonials-grid-section",
         "target": "npm:@vitejs/plugin-react",
-        "type": "static"
-      },
-      {
-        "source": "testimonials-grid-section",
-        "target": "npm:@nx/vite",
         "type": "static"
       }
     ],
@@ -14648,11 +14685,6 @@
         "source": "social-links-profile",
         "target": "npm:@vitejs/plugin-react",
         "type": "static"
-      },
-      {
-        "source": "social-links-profile",
-        "target": "npm:@nx/vite",
-        "type": "static"
       }
     ],
     "blog-preview-card": [
@@ -14680,11 +14712,6 @@
         "source": "blog-preview-card",
         "target": "npm:@vitejs/plugin-react",
         "type": "static"
-      },
-      {
-        "source": "blog-preview-card",
-        "target": "npm:@nx/vite",
-        "type": "static"
       }
     ],
     "meet-landing-page": [
@@ -14706,11 +14733,6 @@
       {
         "source": "meet-landing-page",
         "target": "npm:@vitejs/plugin-react",
-        "type": "static"
-      },
-      {
-        "source": "meet-landing-page",
-        "target": "npm:@nx/vite",
         "type": "static"
       }
     ],
@@ -14739,11 +14761,6 @@
         "source": "qr-code-component",
         "target": "npm:@vitejs/plugin-react",
         "type": "static"
-      },
-      {
-        "source": "qr-code-component",
-        "target": "npm:@nx/vite",
-        "type": "static"
       }
     ],
     "recipe-page": [
@@ -14765,11 +14782,6 @@
       {
         "source": "recipe-page",
         "target": "npm:@vitejs/plugin-react",
-        "type": "static"
-      },
-      {
-        "source": "recipe-page",
-        "target": "npm:@nx/vite",
         "type": "static"
       }
     ],
@@ -14796,22 +14808,12 @@
       },
       {
         "source": "randomizer",
-        "target": "npm:@nx/react",
-        "type": "static"
-      },
-      {
-        "source": "randomizer",
         "target": "npm:vite",
         "type": "static"
       },
       {
         "source": "randomizer",
         "target": "npm:@vitejs/plugin-react",
-        "type": "static"
-      },
-      {
-        "source": "randomizer",
-        "target": "npm:@nx/vite",
         "type": "static"
       }
     ],
@@ -14839,11 +14841,6 @@
       {
         "source": "algorithm",
         "target": "npm:@vitejs/plugin-react",
-        "type": "static"
-      },
-      {
-        "source": "algorithm",
-        "target": "npm:@nx/vite",
         "type": "static"
       }
     ],
