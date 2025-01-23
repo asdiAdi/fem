@@ -3303,3 +3303,75 @@ Error: Unsupported payload sent to daemon server: {"type":"FORCE_SHUTDOWN"}
 [NX Daemon Server] - 2024-08-20T23:59:02.876Z - [WATCHER]: Stopping the watcher for /Users/carladi/Documents/portfolio (sources)
 [NX Daemon Server] - 2024-08-20T23:59:02.876Z - [WATCHER]: Stopping the watcher for /Users/carladi/Documents/portfolio (outputs)
 [NX Daemon Server] - 2024-08-20T23:59:02.876Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX Daemon Server] - 2025-01-23T14:32:48.992Z - Started listening on: \\.\pipe\nx\C:\Users\carlt\AppData\Local\Temp\b25a7b44739de7da016e\d.sock
+[NX Daemon Server] - 2025-01-23T14:32:49.024Z - [WATCHER]: Unexpected workspace watcher error Watcher is not a constructor
+TypeError: Watcher is not a constructor
+    at watchWorkspace (F:\WebProjects\femNew\node_modules\nx\src\daemon\server\watcher.js:21:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Server.<anonymous> (F:\WebProjects\femNew\node_modules\nx\src\daemon\server\server.js:357:68)
+[NX Daemon Server] - 2025-01-23T14:32:49.028Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-23T14:32:49.029Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-23T14:32:49.031Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-23T14:32:49.032Z - [REQUEST]: Responding to the client with an error. File watcher error in the workspace 'F:\WebProjects\femNew'. Watcher is not a constructor
+TypeError: Watcher is not a constructor
+    at watchWorkspace (F:\WebProjects\femNew\node_modules\nx\src\daemon\server\watcher.js:21:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Server.<anonymous> (F:\WebProjects\femNew\node_modules\nx\src\daemon\server\server.js:357:68)
+[NX Daemon Server] - 2025-01-23T14:32:49.034Z - Done responding to the client null
+[NX Daemon Server] - 2025-01-23T14:32:49.035Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2025-01-23T14:32:49.036Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2025-01-23T14:32:49.037Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-01-23T14:36:53.547Z - Started listening on: \\.\pipe\nx\C:\Users\carlt\AppData\Local\Temp\b25a7b44739de7da016e\d.sock
+[NX Daemon Server] - 2025-01-23T14:36:53.636Z - [WATCHER]: Subscribed to changes within: F:\WebProjects\femNew (native)
+[NX Daemon Server] - 2025-01-23T14:36:53.641Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-23T14:36:53.642Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-23T14:36:53.645Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-23T14:36:53.648Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2025-01-23T14:36:53.649Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2025-01-23T14:36:53.649Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-01-23T14:36:53.650Z - [WATCHER]: Stopping the watcher for F:\WebProjects\femNew (sources)
+[NX Daemon Server] - 2025-01-23T14:36:53.651Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-01-23T14:36:53.651Z - [WATCHER]: Stopping the watcher for F:\WebProjects\femNew (outputs)
+[NX Daemon Server] - 2025-01-23T14:36:53.651Z - Server stopped because: "Request to shutdown"
+[NX Daemon Server] - 2025-01-23T14:39:40.074Z - Started listening on: \\.\pipe\nx\C:\Users\carlt\AppData\Local\Temp\b25a7b44739de7da016e\d.sock
+[NX Daemon Server] - 2025-01-23T14:39:40.097Z - [WATCHER]: Subscribed to changes within: F:\WebProjects\femNew (native)
+[NX Daemon Server] - 2025-01-23T14:39:40.100Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-23T14:39:40.101Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-23T14:39:40.103Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-23T14:39:40.106Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2025-01-23T14:39:40.107Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2025-01-23T14:39:40.107Z - Handled FORCE_SHUTDOWN. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2025-01-23T14:39:40.108Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-01-23T14:39:40.108Z - [WATCHER]: Stopping the watcher for F:\WebProjects\femNew (sources)
+[NX Daemon Server] - 2025-01-23T14:39:40.109Z - [WATCHER]: Stopping the watcher for F:\WebProjects\femNew (outputs)
+[NX Daemon Server] - 2025-01-23T14:39:40.110Z - Server stopped because: "Request to shutdown"
+
+> NX runtime error err=cannot send event from fs watcher: sending into a closed channel
+
+
+> NX runtime error err=cannot send event from fs watcher: sending into a closed channel
+
+[NX Daemon Server] - 2025-01-23T14:40:23.974Z - Started listening on: \\.\pipe\nx\C:\Users\carlt\AppData\Local\Temp\b25a7b44739de7da016e\d.sock
+[NX Daemon Server] - 2025-01-23T14:40:23.981Z - [WATCHER]: Subscribed to changes within: F:\WebProjects\femNew (native)
+[NX Daemon Server] - 2025-01-23T14:40:23.985Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-23T14:40:23.986Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-23T14:40:23.988Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-23T14:40:23.991Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2025-01-23T14:40:23.993Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2025-01-23T14:40:23.993Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2025-01-23T14:40:23.993Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-01-23T14:40:23.994Z - [WATCHER]: Stopping the watcher for F:\WebProjects\femNew (sources)
+[NX Daemon Server] - 2025-01-23T14:40:23.994Z - [WATCHER]: Stopping the watcher for F:\WebProjects\femNew (outputs)
+[NX Daemon Server] - 2025-01-23T14:40:23.995Z - Server stopped because: "Request to shutdown"
+[NX Daemon Server] - 2025-01-23T14:40:32.612Z - Started listening on: \\.\pipe\nx\C:\Users\carlt\AppData\Local\Temp\b25a7b44739de7da016e\d.sock
+[NX Daemon Server] - 2025-01-23T14:40:32.617Z - [WATCHER]: Subscribed to changes within: F:\WebProjects\femNew (native)
+[NX Daemon Server] - 2025-01-23T14:40:32.622Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-23T14:40:32.624Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-01-23T14:40:32.625Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-23T14:40:32.628Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2025-01-23T14:40:32.629Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2025-01-23T14:40:32.629Z - Handled FORCE_SHUTDOWN. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2025-01-23T14:40:32.630Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-01-23T14:40:32.630Z - [WATCHER]: Stopping the watcher for F:\WebProjects\femNew (sources)
+[NX Daemon Server] - 2025-01-23T14:40:32.630Z - [WATCHER]: Stopping the watcher for F:\WebProjects\femNew (outputs)
+[NX Daemon Server] - 2025-01-23T14:40:32.631Z - Server stopped because: "Request to shutdown"

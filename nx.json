@@ -96,5 +96,6 @@
       "e2eTestRunner": "none"
     }
   },
-  "nxCloudAccessToken": "NTRjNjhmYzYtY2FiYS00NmNlLTk3MjEtMDI0ZjFiZGM0OTMzfHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "NTRjNjhmYzYtY2FiYS00NmNlLTk3MjEtMDI0ZjFiZGM0OTMzfHJlYWQtd3JpdGU=",
+  "useLegacyCache": true
 }
