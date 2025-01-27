@@ -4,94 +4,151 @@
   "pathMappings": {},
   "nxJsonPlugins": [],
   "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "nx.json",
+        "hash": "13357939910363456014"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "17817151854454706024"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "13391140343975966684"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "7544409015863045561"
+      },
+      {
+        "file": ".env",
+        "hash": "6600483949216868430"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "9188201835120897554"
+      },
+      {
+        "file": "README.md",
+        "hash": "2308742701082552607"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "7473220183190921152"
+      },
+      {
+        "file": "package.json",
+        "hash": "15604412951802267290"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "7954612901304141589"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "5297550255672508527"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "6820402234827505055"
+      },
+      {
+        "file": ".nvmrc",
+        "hash": "4723093966535574023"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "13404745306227114823"
+      },
+      {
+        "file": "vitest.workspace.ts",
+        "hash": "17790581426480935240"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "11532813898455409296"
+      }
+    ],
     "projectFileMap": {
-      "meet-landing-page": [
+      "algorithm": [
         {
-          "file": "apps/meet-landing-page/.eslintrc.json",
+          "file": "apps/algorithm/.eslintrc.json",
           "hash": "14830867113928387670"
         },
         {
-          "file": "apps/meet-landing-page/README.md",
-          "hash": "14556991501417892982"
+          "file": "apps/algorithm/index.html",
+          "hash": "1723611646218256775"
         },
         {
-          "file": "apps/meet-landing-page/index.html",
-          "hash": "9950785220126614452"
+          "file": "apps/algorithm/jest.config.ts",
+          "hash": "2218990012946014795"
         },
         {
-          "file": "apps/meet-landing-page/jest.config.ts",
-          "hash": "15229221995883612953"
+          "file": "apps/algorithm/project.json",
+          "hash": "17024077031537334679"
         },
         {
-          "file": "apps/meet-landing-page/netlify.toml",
-          "hash": "14218400228815125421"
+          "file": "apps/algorithm/public/favicon.ico",
+          "hash": "9303420814833116677"
         },
         {
-          "file": "apps/meet-landing-page/project.json",
-          "hash": "5842844798770024918"
-        },
-        {
-          "file": "apps/meet-landing-page/public/favicon.png",
-          "hash": "12744533118699211984"
-        },
-        {
-          "file": "apps/meet-landing-page/src/app/app.module.scss",
+          "file": "apps/algorithm/src/app/app.module.scss",
           "hash": "14507130133388590702"
         },
         {
-          "file": "apps/meet-landing-page/src/app/app.tsx",
-          "hash": "9236189465465687432"
+          "file": "apps/algorithm/src/app/app.spec.tsx",
+          "hash": "5196373633478010976",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
         },
         {
-          "file": "apps/meet-landing-page/src/assets/desktop/image-footer.jpg",
-          "hash": "15945668178064632830"
+          "file": "apps/algorithm/src/app/app.tsx",
+          "hash": "13872831358843548191"
         },
         {
-          "file": "apps/meet-landing-page/src/assets/desktop/image-hero-left.png",
-          "hash": "11369061422674609708"
+          "file": "apps/algorithm/src/app/nx-welcome.tsx",
+          "hash": "307543222547804912"
         },
         {
-          "file": "apps/meet-landing-page/src/assets/desktop/image-hero-right.png",
-          "hash": "18139882261018879456"
+          "file": "apps/algorithm/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
         },
         {
-          "file": "apps/meet-landing-page/src/assets/desktop/image-man-texting.jpg",
-          "hash": "9669149760190023304"
+          "file": "apps/algorithm/src/lib/search/binary.spec.ts",
+          "hash": "2167477262028114781"
         },
         {
-          "file": "apps/meet-landing-page/src/assets/desktop/image-men-in-meeting.jpg",
-          "hash": "1135198335643845113"
+          "file": "apps/algorithm/src/lib/search/binary.ts",
+          "hash": "11919587326796839727"
         },
         {
-          "file": "apps/meet-landing-page/src/assets/desktop/image-woman-in-videocall.jpg",
-          "hash": "14000120064741153947"
+          "file": "apps/algorithm/src/lib/search/linear.spec.ts",
+          "hash": "3018933310451973779"
         },
         {
-          "file": "apps/meet-landing-page/src/assets/desktop/image-women-videochatting.jpg",
-          "hash": "4716950235991545415"
+          "file": "apps/algorithm/src/lib/search/linear.ts",
+          "hash": "16965736132076053128"
         },
         {
-          "file": "apps/meet-landing-page/src/assets/logo.svg",
-          "hash": "11855141492100084198"
+          "file": "apps/algorithm/src/lib/sort/bubble.spec.ts",
+          "hash": "16227875356850578203"
         },
         {
-          "file": "apps/meet-landing-page/src/assets/mobile/image-footer.jpg",
-          "hash": "8359751062373191904"
+          "file": "apps/algorithm/src/lib/sort/bubble.ts",
+          "hash": "15020492161474628703"
         },
         {
-          "file": "apps/meet-landing-page/src/assets/tablet/image-footer.jpg",
-          "hash": "8666891468494620220"
+          "file": "apps/algorithm/src/lib/structure/index.ts",
+          "hash": "11719672624811326240"
         },
         {
-          "file": "apps/meet-landing-page/src/assets/tablet/image-hero.png",
-          "hash": "2724635538391628281"
-        },
-        {
-          "file": "apps/meet-landing-page/src/global.scss",
-          "hash": "16975120668363961333"
-        },
-        {
-          "file": "apps/meet-landing-page/src/main.tsx",
+          "file": "apps/algorithm/src/main.tsx",
           "hash": "17031623790071076628",
           "deps": [
             "npm:react",
@@ -99,24 +156,114 @@
           ]
         },
         {
-          "file": "apps/meet-landing-page/src/styles/variables.scss",
-          "hash": "12519135418886012145"
+          "file": "apps/algorithm/src/styles.scss",
+          "hash": "2917954890128038984"
         },
         {
-          "file": "apps/meet-landing-page/tsconfig.app.json",
+          "file": "apps/algorithm/tsconfig.app.json",
           "hash": "9014817974750934731"
         },
         {
-          "file": "apps/meet-landing-page/tsconfig.json",
-          "hash": "7245696343842452685"
+          "file": "apps/algorithm/tsconfig.json",
+          "hash": "8792423286157740794"
         },
         {
-          "file": "apps/meet-landing-page/tsconfig.spec.json",
-          "hash": "6598293385245729886"
+          "file": "apps/algorithm/tsconfig.spec.json",
+          "hash": "11194536110028348959"
         },
         {
-          "file": "apps/meet-landing-page/vite.config.ts",
-          "hash": "8702265949055933211",
+          "file": "apps/algorithm/vite.config.ts",
+          "hash": "13544959141414032826",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "qr-code-component": [
+        {
+          "file": "apps/qr-code-component/.eslintrc.json",
+          "hash": "14830867113928387670"
+        },
+        {
+          "file": "apps/qr-code-component/README.md",
+          "hash": "11086167067170394020"
+        },
+        {
+          "file": "apps/qr-code-component/index.html",
+          "hash": "10263793308461159870"
+        },
+        {
+          "file": "apps/qr-code-component/netlify.toml",
+          "hash": "10578047717255854579"
+        },
+        {
+          "file": "apps/qr-code-component/project.json",
+          "hash": "12366760796089891681"
+        },
+        {
+          "file": "apps/qr-code-component/public/favicon.png",
+          "hash": "12744533118699211984"
+        },
+        {
+          "file": "apps/qr-code-component/src/app/app.module.scss",
+          "hash": "9836424568980885406"
+        },
+        {
+          "file": "apps/qr-code-component/src/app/app.spec.tsx",
+          "hash": "14533685540836086172",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/qr-code-component/src/app/app.tsx",
+          "hash": "16332341092847615015"
+        },
+        {
+          "file": "apps/qr-code-component/src/assets/image-qr-code.png",
+          "hash": "11498568320689125719"
+        },
+        {
+          "file": "apps/qr-code-component/src/assets/screenshot.png",
+          "hash": "618818648800294244"
+        },
+        {
+          "file": "apps/qr-code-component/src/global.scss",
+          "hash": "12675176838581610438"
+        },
+        {
+          "file": "apps/qr-code-component/src/main.tsx",
+          "hash": "17031623790071076628",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/qr-code-component/src/styles/variables.scss",
+          "hash": "12457620964915490389"
+        },
+        {
+          "file": "apps/qr-code-component/style-guide.md",
+          "hash": "6036689735301256369"
+        },
+        {
+          "file": "apps/qr-code-component/tsconfig.app.json",
+          "hash": "9014817974750934731"
+        },
+        {
+          "file": "apps/qr-code-component/tsconfig.json",
+          "hash": "8792423286157740794"
+        },
+        {
+          "file": "apps/qr-code-component/tsconfig.spec.json",
+          "hash": "2338756782167906093"
+        },
+        {
+          "file": "apps/qr-code-component/vite.config.ts",
+          "hash": "4599983724375861175",
           "deps": [
             "npm:vite",
             "npm:@vitejs/plugin-react",
@@ -218,558 +365,6 @@
           ]
         }
       ],
-      "article-preview-component": [
-        {
-          "file": "apps/article-preview-component/.eslintrc.json",
-          "hash": "14830867113928387670"
-        },
-        {
-          "file": "apps/article-preview-component/README.md",
-          "hash": "638759271656540738"
-        },
-        {
-          "file": "apps/article-preview-component/index.html",
-          "hash": "832790130817077567"
-        },
-        {
-          "file": "apps/article-preview-component/jest.config.ts",
-          "hash": "4697218526550310979"
-        },
-        {
-          "file": "apps/article-preview-component/netlify.toml",
-          "hash": "16283667058960807766"
-        },
-        {
-          "file": "apps/article-preview-component/project.json",
-          "hash": "3341149677354770309"
-        },
-        {
-          "file": "apps/article-preview-component/public/favicon.png",
-          "hash": "12744533118699211984"
-        },
-        {
-          "file": "apps/article-preview-component/src/app/app.module.scss",
-          "hash": "14507130133388590702"
-        },
-        {
-          "file": "apps/article-preview-component/src/app/app.tsx",
-          "hash": "9236189465465687432"
-        },
-        {
-          "file": "apps/article-preview-component/src/assets/avatar-michelle.jpg",
-          "hash": "2347790824738340358"
-        },
-        {
-          "file": "apps/article-preview-component/src/assets/drawers.jpg",
-          "hash": "10988474949274893801"
-        },
-        {
-          "file": "apps/article-preview-component/src/assets/icon-facebook.svg",
-          "hash": "4783816245403423277"
-        },
-        {
-          "file": "apps/article-preview-component/src/assets/icon-pinterest.svg",
-          "hash": "324422141307290693"
-        },
-        {
-          "file": "apps/article-preview-component/src/assets/icon-share.svg",
-          "hash": "2855304055214466439"
-        },
-        {
-          "file": "apps/article-preview-component/src/assets/icon-twitter.svg",
-          "hash": "10376698590668237663"
-        },
-        {
-          "file": "apps/article-preview-component/src/global.scss",
-          "hash": "13282155001582652331"
-        },
-        {
-          "file": "apps/article-preview-component/src/main.tsx",
-          "hash": "17031623790071076628",
-          "deps": [
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/article-preview-component/src/styles/_colors.scss",
-          "hash": "506221866144234117"
-        },
-        {
-          "file": "apps/article-preview-component/src/styles/_layout.scss",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/article-preview-component/tsconfig.app.json",
-          "hash": "9014817974750934731"
-        },
-        {
-          "file": "apps/article-preview-component/tsconfig.json",
-          "hash": "7245696343842452685"
-        },
-        {
-          "file": "apps/article-preview-component/tsconfig.spec.json",
-          "hash": "6598293385245729886"
-        },
-        {
-          "file": "apps/article-preview-component/vite.config.ts",
-          "hash": "9716616290696568071",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react",
-            "npm:@nx/vite"
-          ]
-        }
-      ],
-      "qr-code-component": [
-        {
-          "file": "apps/qr-code-component/.eslintrc.json",
-          "hash": "14830867113928387670"
-        },
-        {
-          "file": "apps/qr-code-component/README.md",
-          "hash": "11086167067170394020"
-        },
-        {
-          "file": "apps/qr-code-component/index.html",
-          "hash": "10263793308461159870"
-        },
-        {
-          "file": "apps/qr-code-component/netlify.toml",
-          "hash": "10578047717255854579"
-        },
-        {
-          "file": "apps/qr-code-component/project.json",
-          "hash": "12366760796089891681"
-        },
-        {
-          "file": "apps/qr-code-component/public/favicon.png",
-          "hash": "12744533118699211984"
-        },
-        {
-          "file": "apps/qr-code-component/src/app/app.module.scss",
-          "hash": "9836424568980885406"
-        },
-        {
-          "file": "apps/qr-code-component/src/app/app.spec.tsx",
-          "hash": "14533685540836086172",
-          "deps": [
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "apps/qr-code-component/src/app/app.tsx",
-          "hash": "16332341092847615015"
-        },
-        {
-          "file": "apps/qr-code-component/src/assets/image-qr-code.png",
-          "hash": "11498568320689125719"
-        },
-        {
-          "file": "apps/qr-code-component/src/assets/screenshot.png",
-          "hash": "618818648800294244"
-        },
-        {
-          "file": "apps/qr-code-component/src/global.scss",
-          "hash": "12675176838581610438"
-        },
-        {
-          "file": "apps/qr-code-component/src/main.tsx",
-          "hash": "17031623790071076628",
-          "deps": [
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/qr-code-component/src/styles/variables.scss",
-          "hash": "12457620964915490389"
-        },
-        {
-          "file": "apps/qr-code-component/style-guide.md",
-          "hash": "6036689735301256369"
-        },
-        {
-          "file": "apps/qr-code-component/tsconfig.app.json",
-          "hash": "9014817974750934731"
-        },
-        {
-          "file": "apps/qr-code-component/tsconfig.json",
-          "hash": "8792423286157740794"
-        },
-        {
-          "file": "apps/qr-code-component/tsconfig.spec.json",
-          "hash": "2338756782167906093"
-        },
-        {
-          "file": "apps/qr-code-component/vite.config.ts",
-          "hash": "4599983724375861175",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react",
-            "npm:@nx/vite"
-          ]
-        }
-      ],
-      "testimonials-grid-section": [
-        {
-          "file": "apps/testimonials-grid-section/.eslintrc.json",
-          "hash": "14830867113928387670"
-        },
-        {
-          "file": "apps/testimonials-grid-section/README.md",
-          "hash": "10902586756471665066"
-        },
-        {
-          "file": "apps/testimonials-grid-section/index.html",
-          "hash": "7865152433713481571"
-        },
-        {
-          "file": "apps/testimonials-grid-section/netlify.toml",
-          "hash": "6823382516635825622"
-        },
-        {
-          "file": "apps/testimonials-grid-section/project.json",
-          "hash": "3657701016659896983"
-        },
-        {
-          "file": "apps/testimonials-grid-section/public/favicon.png",
-          "hash": "12744533118699211984"
-        },
-        {
-          "file": "apps/testimonials-grid-section/src/app/app.module.scss",
-          "hash": "14507130133388590702"
-        },
-        {
-          "file": "apps/testimonials-grid-section/src/app/app.tsx",
-          "hash": "9236189465465687432"
-        },
-        {
-          "file": "apps/testimonials-grid-section/src/assets/bg-pattern-quotation.svg",
-          "hash": "11480547447612207925"
-        },
-        {
-          "file": "apps/testimonials-grid-section/src/assets/image-daniel.jpg",
-          "hash": "14150724093390048830"
-        },
-        {
-          "file": "apps/testimonials-grid-section/src/assets/image-jeanette.jpg",
-          "hash": "8373082656411203322"
-        },
-        {
-          "file": "apps/testimonials-grid-section/src/assets/image-jonathan.jpg",
-          "hash": "13661378937389505016"
-        },
-        {
-          "file": "apps/testimonials-grid-section/src/assets/image-kira.jpg",
-          "hash": "391352169294397384"
-        },
-        {
-          "file": "apps/testimonials-grid-section/src/assets/image-patrick.jpg",
-          "hash": "16131619160996728781"
-        },
-        {
-          "file": "apps/testimonials-grid-section/src/global.scss",
-          "hash": "2032207207408873936"
-        },
-        {
-          "file": "apps/testimonials-grid-section/src/main.tsx",
-          "hash": "17031623790071076628",
-          "deps": [
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/testimonials-grid-section/src/styles/variables.scss",
-          "hash": "3748079628814972350"
-        },
-        {
-          "file": "apps/testimonials-grid-section/style-guide.md",
-          "hash": "2432376231355336621"
-        },
-        {
-          "file": "apps/testimonials-grid-section/tsconfig.app.json",
-          "hash": "9014817974750934731"
-        },
-        {
-          "file": "apps/testimonials-grid-section/tsconfig.json",
-          "hash": "8792423286157740794"
-        },
-        {
-          "file": "apps/testimonials-grid-section/tsconfig.spec.json",
-          "hash": "2338756782167906093"
-        },
-        {
-          "file": "apps/testimonials-grid-section/vite.config.ts",
-          "hash": "9073004617979660430",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react",
-            "npm:@nx/vite"
-          ]
-        }
-      ],
-      "product-preview-card-component": [
-        {
-          "file": "apps/product-preview-card-component/.eslintrc.json",
-          "hash": "14830867113928387670"
-        },
-        {
-          "file": "apps/product-preview-card-component/README.md",
-          "hash": "15511189671757703284"
-        },
-        {
-          "file": "apps/product-preview-card-component/index.html",
-          "hash": "4469437292750329561"
-        },
-        {
-          "file": "apps/product-preview-card-component/netlify.toml",
-          "hash": "10161594266936635484"
-        },
-        {
-          "file": "apps/product-preview-card-component/project.json",
-          "hash": "10015836606373856820"
-        },
-        {
-          "file": "apps/product-preview-card-component/public/favicon.png",
-          "hash": "12744533118699211984"
-        },
-        {
-          "file": "apps/product-preview-card-component/src/app/app.module.scss",
-          "hash": "14507130133388590702"
-        },
-        {
-          "file": "apps/product-preview-card-component/src/app/app.tsx",
-          "hash": "9236189465465687432"
-        },
-        {
-          "file": "apps/product-preview-card-component/src/assets/icon-cart.svg",
-          "hash": "17655157021870686582"
-        },
-        {
-          "file": "apps/product-preview-card-component/src/assets/image-product-desktop.jpg",
-          "hash": "1556504119981924707"
-        },
-        {
-          "file": "apps/product-preview-card-component/src/assets/image-product-mobile.jpg",
-          "hash": "5651650073970724579"
-        },
-        {
-          "file": "apps/product-preview-card-component/src/global.scss",
-          "hash": "7895405728835659712"
-        },
-        {
-          "file": "apps/product-preview-card-component/src/main.tsx",
-          "hash": "17031623790071076628",
-          "deps": [
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/product-preview-card-component/src/styles/variables.scss",
-          "hash": "11721545758972130986"
-        },
-        {
-          "file": "apps/product-preview-card-component/style-guide.md",
-          "hash": "4589169133491140355"
-        },
-        {
-          "file": "apps/product-preview-card-component/tsconfig.app.json",
-          "hash": "9014817974750934731"
-        },
-        {
-          "file": "apps/product-preview-card-component/tsconfig.json",
-          "hash": "8792423286157740794"
-        },
-        {
-          "file": "apps/product-preview-card-component/tsconfig.spec.json",
-          "hash": "2338756782167906093"
-        },
-        {
-          "file": "apps/product-preview-card-component/vite.config.ts",
-          "hash": "11517697606284611581",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react",
-            "npm:@nx/vite"
-          ]
-        }
-      ],
-      "recipe-page": [
-        {
-          "file": "apps/recipe-page/.eslintrc.json",
-          "hash": "14830867113928387670"
-        },
-        {
-          "file": "apps/recipe-page/README.md",
-          "hash": "5821727822711103860"
-        },
-        {
-          "file": "apps/recipe-page/index.html",
-          "hash": "18343398583701577402"
-        },
-        {
-          "file": "apps/recipe-page/netlify.toml",
-          "hash": "3293042592495040798"
-        },
-        {
-          "file": "apps/recipe-page/project.json",
-          "hash": "8003869239147324794"
-        },
-        {
-          "file": "apps/recipe-page/public/favicon.png",
-          "hash": "12744533118699211984"
-        },
-        {
-          "file": "apps/recipe-page/src/app/app.module.scss",
-          "hash": "14193718907321539697"
-        },
-        {
-          "file": "apps/recipe-page/src/app/app.tsx",
-          "hash": "12395384245779466206"
-        },
-        {
-          "file": "apps/recipe-page/src/assets/omelette.jpeg",
-          "hash": "4786132035395625263"
-        },
-        {
-          "file": "apps/recipe-page/src/global.scss",
-          "hash": "13392287624282753104"
-        },
-        {
-          "file": "apps/recipe-page/src/main.tsx",
-          "hash": "17031623790071076628",
-          "deps": [
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/recipe-page/src/styles/_colors.scss",
-          "hash": "3480474554614890173"
-        },
-        {
-          "file": "apps/recipe-page/src/styles/_layout.scss",
-          "hash": "5859748631784311385"
-        },
-        {
-          "file": "apps/recipe-page/style-guide.md",
-          "hash": "17694306878891320239"
-        },
-        {
-          "file": "apps/recipe-page/tsconfig.app.json",
-          "hash": "9014817974750934731"
-        },
-        {
-          "file": "apps/recipe-page/tsconfig.json",
-          "hash": "8792423286157740794"
-        },
-        {
-          "file": "apps/recipe-page/tsconfig.spec.json",
-          "hash": "2338756782167906093"
-        },
-        {
-          "file": "apps/recipe-page/vite.config.ts",
-          "hash": "16194404727925620531",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react",
-            "npm:@nx/vite"
-          ]
-        }
-      ],
-      "social-links-profile": [
-        {
-          "file": "apps/social-links-profile/.eslintrc.json",
-          "hash": "14830867113928387670"
-        },
-        {
-          "file": "apps/social-links-profile/README.md",
-          "hash": "11977824012653965620"
-        },
-        {
-          "file": "apps/social-links-profile/index.html",
-          "hash": "11120416486761292242"
-        },
-        {
-          "file": "apps/social-links-profile/netlify.toml",
-          "hash": "13730227642589875317"
-        },
-        {
-          "file": "apps/social-links-profile/project.json",
-          "hash": "5959510412333845794"
-        },
-        {
-          "file": "apps/social-links-profile/public/favicon.png",
-          "hash": "12744533118699211984"
-        },
-        {
-          "file": "apps/social-links-profile/src/app/app.module.scss",
-          "hash": "3926911994862757352"
-        },
-        {
-          "file": "apps/social-links-profile/src/app/app.spec.tsx",
-          "hash": "15210363343980199130",
-          "deps": [
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "apps/social-links-profile/src/app/app.tsx",
-          "hash": "9230706104618075970"
-        },
-        {
-          "file": "apps/social-links-profile/src/assets/avatar-jessica.jpeg",
-          "hash": "2571164915705276097"
-        },
-        {
-          "file": "apps/social-links-profile/src/assets/screenshot.png",
-          "hash": "15698935174103232742"
-        },
-        {
-          "file": "apps/social-links-profile/src/global.scss",
-          "hash": "15650275791284832361"
-        },
-        {
-          "file": "apps/social-links-profile/src/main.tsx",
-          "hash": "17031623790071076628",
-          "deps": [
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/social-links-profile/src/styles/variables.scss",
-          "hash": "13326196940441650613"
-        },
-        {
-          "file": "apps/social-links-profile/style-guide.md",
-          "hash": "4252351597458435083"
-        },
-        {
-          "file": "apps/social-links-profile/tsconfig.app.json",
-          "hash": "9014817974750934731"
-        },
-        {
-          "file": "apps/social-links-profile/tsconfig.json",
-          "hash": "8792423286157740794"
-        },
-        {
-          "file": "apps/social-links-profile/tsconfig.spec.json",
-          "hash": "2338756782167906093"
-        },
-        {
-          "file": "apps/social-links-profile/vite.config.ts",
-          "hash": "2689188930109272063",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react",
-            "npm:@nx/vite"
-          ]
-        }
-      ],
       "four-card-feature-section": [
         {
           "file": "apps/four-card-feature-section/.eslintrc.json",
@@ -854,91 +449,6 @@
         {
           "file": "apps/four-card-feature-section/vite.config.ts",
           "hash": "17661060108655178986",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react",
-            "npm:@nx/vite"
-          ]
-        }
-      ],
-      "randomizer": [
-        {
-          "file": "apps/randomizer/.eslintrc.json",
-          "hash": "14830867113928387670"
-        },
-        {
-          "file": "apps/randomizer/index.html",
-          "hash": "504579208872286586"
-        },
-        {
-          "file": "apps/randomizer/postcss.config.js",
-          "hash": "15486281244187232437"
-        },
-        {
-          "file": "apps/randomizer/project.json",
-          "hash": "6881052966497543924"
-        },
-        {
-          "file": "apps/randomizer/public/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "apps/randomizer/src/app/app.module.scss",
-          "hash": "14507130133388590702"
-        },
-        {
-          "file": "apps/randomizer/src/app/app.spec.tsx",
-          "hash": "1947884674289519624",
-          "deps": [
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "apps/randomizer/src/app/app.tsx",
-          "hash": "14677571296294734147",
-          "deps": [
-            "npm:classnames",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "apps/randomizer/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/randomizer/src/main.tsx",
-          "hash": "17031623790071076628",
-          "deps": [
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/randomizer/src/styles.scss",
-          "hash": "9672666810670432666"
-        },
-        {
-          "file": "apps/randomizer/tailwind.config.js",
-          "hash": "16449474197544728623",
-          "deps": [
-            "npm:@nx/react"
-          ]
-        },
-        {
-          "file": "apps/randomizer/tsconfig.app.json",
-          "hash": "9014817974750934731"
-        },
-        {
-          "file": "apps/randomizer/tsconfig.json",
-          "hash": "8792423286157740794"
-        },
-        {
-          "file": "apps/randomizer/tsconfig.spec.json",
-          "hash": "2338756782167906093"
-        },
-        {
-          "file": "apps/randomizer/vite.config.ts",
-          "hash": "16346155955304798677",
           "deps": [
             "npm:vite",
             "npm:@vitejs/plugin-react",
@@ -1100,80 +610,57 @@
           ]
         }
       ],
-      "algorithm": [
+      "product-preview-card-component": [
         {
-          "file": "apps/algorithm/.eslintrc.json",
+          "file": "apps/product-preview-card-component/.eslintrc.json",
           "hash": "14830867113928387670"
         },
         {
-          "file": "apps/algorithm/index.html",
-          "hash": "1723611646218256775"
+          "file": "apps/product-preview-card-component/README.md",
+          "hash": "15511189671757703284"
         },
         {
-          "file": "apps/algorithm/jest.config.ts",
-          "hash": "2218990012946014795"
+          "file": "apps/product-preview-card-component/index.html",
+          "hash": "4469437292750329561"
         },
         {
-          "file": "apps/algorithm/project.json",
-          "hash": "17024077031537334679"
+          "file": "apps/product-preview-card-component/netlify.toml",
+          "hash": "10161594266936635484"
         },
         {
-          "file": "apps/algorithm/public/favicon.ico",
-          "hash": "9303420814833116677"
+          "file": "apps/product-preview-card-component/project.json",
+          "hash": "10015836606373856820"
         },
         {
-          "file": "apps/algorithm/src/app/app.module.scss",
+          "file": "apps/product-preview-card-component/public/favicon.png",
+          "hash": "12744533118699211984"
+        },
+        {
+          "file": "apps/product-preview-card-component/src/app/app.module.scss",
           "hash": "14507130133388590702"
         },
         {
-          "file": "apps/algorithm/src/app/app.spec.tsx",
-          "hash": "5196373633478010976",
-          "deps": [
-            "npm:@testing-library/react"
-          ]
+          "file": "apps/product-preview-card-component/src/app/app.tsx",
+          "hash": "9236189465465687432"
         },
         {
-          "file": "apps/algorithm/src/app/app.tsx",
-          "hash": "13872831358843548191"
+          "file": "apps/product-preview-card-component/src/assets/icon-cart.svg",
+          "hash": "17655157021870686582"
         },
         {
-          "file": "apps/algorithm/src/app/nx-welcome.tsx",
-          "hash": "307543222547804912"
+          "file": "apps/product-preview-card-component/src/assets/image-product-desktop.jpg",
+          "hash": "1556504119981924707"
         },
         {
-          "file": "apps/algorithm/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
+          "file": "apps/product-preview-card-component/src/assets/image-product-mobile.jpg",
+          "hash": "5651650073970724579"
         },
         {
-          "file": "apps/algorithm/src/lib/search/binary.spec.ts",
-          "hash": "2167477262028114781"
+          "file": "apps/product-preview-card-component/src/global.scss",
+          "hash": "7895405728835659712"
         },
         {
-          "file": "apps/algorithm/src/lib/search/binary.ts",
-          "hash": "11919587326796839727"
-        },
-        {
-          "file": "apps/algorithm/src/lib/search/linear.spec.ts",
-          "hash": "3018933310451973779"
-        },
-        {
-          "file": "apps/algorithm/src/lib/search/linear.ts",
-          "hash": "16965736132076053128"
-        },
-        {
-          "file": "apps/algorithm/src/lib/sort/bubble.spec.ts",
-          "hash": "16227875356850578203"
-        },
-        {
-          "file": "apps/algorithm/src/lib/sort/bubble.ts",
-          "hash": "15020492161474628703"
-        },
-        {
-          "file": "apps/algorithm/src/lib/structure/index.ts",
-          "hash": "11719672624811326240"
-        },
-        {
-          "file": "apps/algorithm/src/main.tsx",
+          "file": "apps/product-preview-card-component/src/main.tsx",
           "hash": "17031623790071076628",
           "deps": [
             "npm:react",
@@ -1181,24 +668,614 @@
           ]
         },
         {
-          "file": "apps/algorithm/src/styles.scss",
-          "hash": "2917954890128038984"
+          "file": "apps/product-preview-card-component/src/styles/variables.scss",
+          "hash": "11721545758972130986"
         },
         {
-          "file": "apps/algorithm/tsconfig.app.json",
+          "file": "apps/product-preview-card-component/style-guide.md",
+          "hash": "4589169133491140355"
+        },
+        {
+          "file": "apps/product-preview-card-component/tsconfig.app.json",
           "hash": "9014817974750934731"
         },
         {
-          "file": "apps/algorithm/tsconfig.json",
+          "file": "apps/product-preview-card-component/tsconfig.json",
           "hash": "8792423286157740794"
         },
         {
-          "file": "apps/algorithm/tsconfig.spec.json",
-          "hash": "11194536110028348959"
+          "file": "apps/product-preview-card-component/tsconfig.spec.json",
+          "hash": "2338756782167906093"
         },
         {
-          "file": "apps/algorithm/vite.config.ts",
-          "hash": "13544959141414032826",
+          "file": "apps/product-preview-card-component/vite.config.ts",
+          "hash": "11517697606284611581",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "article-preview-component": [
+        {
+          "file": "apps/article-preview-component/.eslintrc.json",
+          "hash": "14830867113928387670"
+        },
+        {
+          "file": "apps/article-preview-component/README.md",
+          "hash": "638759271656540738"
+        },
+        {
+          "file": "apps/article-preview-component/index.html",
+          "hash": "832790130817077567"
+        },
+        {
+          "file": "apps/article-preview-component/jest.config.ts",
+          "hash": "4697218526550310979"
+        },
+        {
+          "file": "apps/article-preview-component/netlify.toml",
+          "hash": "16283667058960807766"
+        },
+        {
+          "file": "apps/article-preview-component/project.json",
+          "hash": "3341149677354770309"
+        },
+        {
+          "file": "apps/article-preview-component/public/favicon.png",
+          "hash": "12744533118699211984"
+        },
+        {
+          "file": "apps/article-preview-component/src/app/app.module.scss",
+          "hash": "14507130133388590702"
+        },
+        {
+          "file": "apps/article-preview-component/src/app/app.tsx",
+          "hash": "9236189465465687432"
+        },
+        {
+          "file": "apps/article-preview-component/src/assets/avatar-michelle.jpg",
+          "hash": "2347790824738340358"
+        },
+        {
+          "file": "apps/article-preview-component/src/assets/drawers.jpg",
+          "hash": "10988474949274893801"
+        },
+        {
+          "file": "apps/article-preview-component/src/assets/icon-facebook.svg",
+          "hash": "4783816245403423277"
+        },
+        {
+          "file": "apps/article-preview-component/src/assets/icon-pinterest.svg",
+          "hash": "324422141307290693"
+        },
+        {
+          "file": "apps/article-preview-component/src/assets/icon-share.svg",
+          "hash": "2855304055214466439"
+        },
+        {
+          "file": "apps/article-preview-component/src/assets/icon-twitter.svg",
+          "hash": "10376698590668237663"
+        },
+        {
+          "file": "apps/article-preview-component/src/global.scss",
+          "hash": "13282155001582652331"
+        },
+        {
+          "file": "apps/article-preview-component/src/main.tsx",
+          "hash": "17031623790071076628",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/article-preview-component/src/styles/_colors.scss",
+          "hash": "506221866144234117"
+        },
+        {
+          "file": "apps/article-preview-component/src/styles/_layout.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/article-preview-component/tsconfig.app.json",
+          "hash": "9014817974750934731"
+        },
+        {
+          "file": "apps/article-preview-component/tsconfig.json",
+          "hash": "7245696343842452685"
+        },
+        {
+          "file": "apps/article-preview-component/tsconfig.spec.json",
+          "hash": "6598293385245729886"
+        },
+        {
+          "file": "apps/article-preview-component/vite.config.ts",
+          "hash": "9716616290696568071",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "randomizer": [
+        {
+          "file": "apps/randomizer/.eslintrc.json",
+          "hash": "14830867113928387670"
+        },
+        {
+          "file": "apps/randomizer/index.html",
+          "hash": "504579208872286586"
+        },
+        {
+          "file": "apps/randomizer/postcss.config.js",
+          "hash": "15486281244187232437"
+        },
+        {
+          "file": "apps/randomizer/project.json",
+          "hash": "6881052966497543924"
+        },
+        {
+          "file": "apps/randomizer/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/randomizer/src/app/app.module.scss",
+          "hash": "14507130133388590702"
+        },
+        {
+          "file": "apps/randomizer/src/app/app.spec.tsx",
+          "hash": "1947884674289519624",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/randomizer/src/app/app.tsx",
+          "hash": "14677571296294734147",
+          "deps": [
+            "npm:classnames",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/randomizer/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/randomizer/src/main.tsx",
+          "hash": "17031623790071076628",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/randomizer/src/styles.scss",
+          "hash": "9672666810670432666"
+        },
+        {
+          "file": "apps/randomizer/tailwind.config.js",
+          "hash": "16449474197544728623",
+          "deps": [
+            "npm:@nx/react"
+          ]
+        },
+        {
+          "file": "apps/randomizer/tsconfig.app.json",
+          "hash": "9014817974750934731"
+        },
+        {
+          "file": "apps/randomizer/tsconfig.json",
+          "hash": "8792423286157740794"
+        },
+        {
+          "file": "apps/randomizer/tsconfig.spec.json",
+          "hash": "2338756782167906093"
+        },
+        {
+          "file": "apps/randomizer/vite.config.ts",
+          "hash": "16346155955304798677",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "recipe-page": [
+        {
+          "file": "apps/recipe-page/.eslintrc.json",
+          "hash": "14830867113928387670"
+        },
+        {
+          "file": "apps/recipe-page/README.md",
+          "hash": "5821727822711103860"
+        },
+        {
+          "file": "apps/recipe-page/index.html",
+          "hash": "18343398583701577402"
+        },
+        {
+          "file": "apps/recipe-page/netlify.toml",
+          "hash": "3293042592495040798"
+        },
+        {
+          "file": "apps/recipe-page/project.json",
+          "hash": "8003869239147324794"
+        },
+        {
+          "file": "apps/recipe-page/public/favicon.png",
+          "hash": "12744533118699211984"
+        },
+        {
+          "file": "apps/recipe-page/src/app/app.module.scss",
+          "hash": "15873438981889932473"
+        },
+        {
+          "file": "apps/recipe-page/src/app/app.tsx",
+          "hash": "5095809256336758691",
+          "deps": [
+            "npm:classnames"
+          ]
+        },
+        {
+          "file": "apps/recipe-page/src/assets/omelette.jpeg",
+          "hash": "4786132035395625263"
+        },
+        {
+          "file": "apps/recipe-page/src/global.scss",
+          "hash": "4675316412590603811"
+        },
+        {
+          "file": "apps/recipe-page/src/main.tsx",
+          "hash": "17031623790071076628",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/recipe-page/src/styles/_colors.scss",
+          "hash": "3188527670452202066"
+        },
+        {
+          "file": "apps/recipe-page/src/styles/_font.scss",
+          "hash": "12605696817894910068"
+        },
+        {
+          "file": "apps/recipe-page/src/styles/_layout.scss",
+          "hash": "5859748631784311385"
+        },
+        {
+          "file": "apps/recipe-page/style-guide.md",
+          "hash": "17694306878891320239"
+        },
+        {
+          "file": "apps/recipe-page/tsconfig.app.json",
+          "hash": "9014817974750934731"
+        },
+        {
+          "file": "apps/recipe-page/tsconfig.json",
+          "hash": "8792423286157740794"
+        },
+        {
+          "file": "apps/recipe-page/tsconfig.spec.json",
+          "hash": "2338756782167906093"
+        },
+        {
+          "file": "apps/recipe-page/vite.config.ts",
+          "hash": "16194404727925620531",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "social-links-profile": [
+        {
+          "file": "apps/social-links-profile/.eslintrc.json",
+          "hash": "14830867113928387670"
+        },
+        {
+          "file": "apps/social-links-profile/README.md",
+          "hash": "11977824012653965620"
+        },
+        {
+          "file": "apps/social-links-profile/index.html",
+          "hash": "11120416486761292242"
+        },
+        {
+          "file": "apps/social-links-profile/netlify.toml",
+          "hash": "13730227642589875317"
+        },
+        {
+          "file": "apps/social-links-profile/project.json",
+          "hash": "5959510412333845794"
+        },
+        {
+          "file": "apps/social-links-profile/public/favicon.png",
+          "hash": "12744533118699211984"
+        },
+        {
+          "file": "apps/social-links-profile/src/app/app.module.scss",
+          "hash": "3926911994862757352"
+        },
+        {
+          "file": "apps/social-links-profile/src/app/app.spec.tsx",
+          "hash": "15210363343980199130",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/social-links-profile/src/app/app.tsx",
+          "hash": "9230706104618075970"
+        },
+        {
+          "file": "apps/social-links-profile/src/assets/avatar-jessica.jpeg",
+          "hash": "2571164915705276097"
+        },
+        {
+          "file": "apps/social-links-profile/src/assets/screenshot.png",
+          "hash": "15698935174103232742"
+        },
+        {
+          "file": "apps/social-links-profile/src/global.scss",
+          "hash": "15650275791284832361"
+        },
+        {
+          "file": "apps/social-links-profile/src/main.tsx",
+          "hash": "17031623790071076628",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/social-links-profile/src/styles/variables.scss",
+          "hash": "13326196940441650613"
+        },
+        {
+          "file": "apps/social-links-profile/style-guide.md",
+          "hash": "4252351597458435083"
+        },
+        {
+          "file": "apps/social-links-profile/tsconfig.app.json",
+          "hash": "9014817974750934731"
+        },
+        {
+          "file": "apps/social-links-profile/tsconfig.json",
+          "hash": "8792423286157740794"
+        },
+        {
+          "file": "apps/social-links-profile/tsconfig.spec.json",
+          "hash": "2338756782167906093"
+        },
+        {
+          "file": "apps/social-links-profile/vite.config.ts",
+          "hash": "2689188930109272063",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "meet-landing-page": [
+        {
+          "file": "apps/meet-landing-page/.eslintrc.json",
+          "hash": "14830867113928387670"
+        },
+        {
+          "file": "apps/meet-landing-page/README.md",
+          "hash": "14556991501417892982"
+        },
+        {
+          "file": "apps/meet-landing-page/index.html",
+          "hash": "9950785220126614452"
+        },
+        {
+          "file": "apps/meet-landing-page/jest.config.ts",
+          "hash": "15229221995883612953"
+        },
+        {
+          "file": "apps/meet-landing-page/netlify.toml",
+          "hash": "14218400228815125421"
+        },
+        {
+          "file": "apps/meet-landing-page/project.json",
+          "hash": "5842844798770024918"
+        },
+        {
+          "file": "apps/meet-landing-page/public/favicon.png",
+          "hash": "12744533118699211984"
+        },
+        {
+          "file": "apps/meet-landing-page/src/app/app.module.scss",
+          "hash": "14507130133388590702"
+        },
+        {
+          "file": "apps/meet-landing-page/src/app/app.tsx",
+          "hash": "9236189465465687432"
+        },
+        {
+          "file": "apps/meet-landing-page/src/assets/desktop/image-footer.jpg",
+          "hash": "15945668178064632830"
+        },
+        {
+          "file": "apps/meet-landing-page/src/assets/desktop/image-hero-left.png",
+          "hash": "11369061422674609708"
+        },
+        {
+          "file": "apps/meet-landing-page/src/assets/desktop/image-hero-right.png",
+          "hash": "18139882261018879456"
+        },
+        {
+          "file": "apps/meet-landing-page/src/assets/desktop/image-man-texting.jpg",
+          "hash": "9669149760190023304"
+        },
+        {
+          "file": "apps/meet-landing-page/src/assets/desktop/image-men-in-meeting.jpg",
+          "hash": "1135198335643845113"
+        },
+        {
+          "file": "apps/meet-landing-page/src/assets/desktop/image-woman-in-videocall.jpg",
+          "hash": "14000120064741153947"
+        },
+        {
+          "file": "apps/meet-landing-page/src/assets/desktop/image-women-videochatting.jpg",
+          "hash": "4716950235991545415"
+        },
+        {
+          "file": "apps/meet-landing-page/src/assets/logo.svg",
+          "hash": "11855141492100084198"
+        },
+        {
+          "file": "apps/meet-landing-page/src/assets/mobile/image-footer.jpg",
+          "hash": "8359751062373191904"
+        },
+        {
+          "file": "apps/meet-landing-page/src/assets/tablet/image-footer.jpg",
+          "hash": "8666891468494620220"
+        },
+        {
+          "file": "apps/meet-landing-page/src/assets/tablet/image-hero.png",
+          "hash": "2724635538391628281"
+        },
+        {
+          "file": "apps/meet-landing-page/src/global.scss",
+          "hash": "16975120668363961333"
+        },
+        {
+          "file": "apps/meet-landing-page/src/main.tsx",
+          "hash": "17031623790071076628",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/meet-landing-page/src/styles/variables.scss",
+          "hash": "12519135418886012145"
+        },
+        {
+          "file": "apps/meet-landing-page/tsconfig.app.json",
+          "hash": "9014817974750934731"
+        },
+        {
+          "file": "apps/meet-landing-page/tsconfig.json",
+          "hash": "7245696343842452685"
+        },
+        {
+          "file": "apps/meet-landing-page/tsconfig.spec.json",
+          "hash": "6598293385245729886"
+        },
+        {
+          "file": "apps/meet-landing-page/vite.config.ts",
+          "hash": "8702265949055933211",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "testimonials-grid-section": [
+        {
+          "file": "apps/testimonials-grid-section/.eslintrc.json",
+          "hash": "14830867113928387670"
+        },
+        {
+          "file": "apps/testimonials-grid-section/README.md",
+          "hash": "10902586756471665066"
+        },
+        {
+          "file": "apps/testimonials-grid-section/index.html",
+          "hash": "7865152433713481571"
+        },
+        {
+          "file": "apps/testimonials-grid-section/netlify.toml",
+          "hash": "6823382516635825622"
+        },
+        {
+          "file": "apps/testimonials-grid-section/project.json",
+          "hash": "3657701016659896983"
+        },
+        {
+          "file": "apps/testimonials-grid-section/public/favicon.png",
+          "hash": "12744533118699211984"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/app/app.module.scss",
+          "hash": "14507130133388590702"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/app/app.tsx",
+          "hash": "9236189465465687432"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/assets/bg-pattern-quotation.svg",
+          "hash": "11480547447612207925"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/assets/image-daniel.jpg",
+          "hash": "14150724093390048830"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/assets/image-jeanette.jpg",
+          "hash": "8373082656411203322"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/assets/image-jonathan.jpg",
+          "hash": "13661378937389505016"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/assets/image-kira.jpg",
+          "hash": "391352169294397384"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/assets/image-patrick.jpg",
+          "hash": "16131619160996728781"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/global.scss",
+          "hash": "2032207207408873936"
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/main.tsx",
+          "hash": "17031623790071076628",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/testimonials-grid-section/src/styles/variables.scss",
+          "hash": "3748079628814972350"
+        },
+        {
+          "file": "apps/testimonials-grid-section/style-guide.md",
+          "hash": "2432376231355336621"
+        },
+        {
+          "file": "apps/testimonials-grid-section/tsconfig.app.json",
+          "hash": "9014817974750934731"
+        },
+        {
+          "file": "apps/testimonials-grid-section/tsconfig.json",
+          "hash": "8792423286157740794"
+        },
+        {
+          "file": "apps/testimonials-grid-section/tsconfig.spec.json",
+          "hash": "2338756782167906093"
+        },
+        {
+          "file": "apps/testimonials-grid-section/vite.config.ts",
+          "hash": "9073004617979660430",
           "deps": [
             "npm:vite",
             "npm:@vitejs/plugin-react",
@@ -1206,76 +1283,6 @@
           ]
         }
       ]
-    },
-    "nonProjectFiles": [
-      {
-        "file": ".editorconfig",
-        "hash": "11532813898455409296"
-      },
-      {
-        "file": ".env",
-        "hash": "6600483949216868430"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "13404745306227114823"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "9188201835120897554"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "119356215799463864"
-      },
-      {
-        "file": ".nvmrc",
-        "hash": "4723093966535574023"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "6820402234827505055"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "13391140343975966684"
-      },
-      {
-        "file": "README.md",
-        "hash": "2308742701082552607"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3407785570333453138"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "7473220183190921152"
-      },
-      {
-        "file": "migrations.json",
-        "hash": "7954612901304141589"
-      },
-      {
-        "file": "nx.json",
-        "hash": "7186014023343560837"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "17817151854454706024"
-      },
-      {
-        "file": "package.json",
-        "hash": "15604412951802267290"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "12471885200579325840"
-      },
-      {
-        "file": "vitest.workspace.ts",
-        "hash": "17790581426480935240"
-      }
-    ]
+    }
   }
 }

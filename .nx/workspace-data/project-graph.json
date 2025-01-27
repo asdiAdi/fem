@@ -15873,6 +15873,11 @@
     "recipe-page": [
       {
         "source": "recipe-page",
+        "target": "npm:classnames",
+        "type": "static"
+      },
+      {
+        "source": "recipe-page",
         "target": "npm:react",
         "type": "static"
       },

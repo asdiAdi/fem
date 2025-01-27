@@ -1,23 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
-@import 'styles/colors';
+@use 'styles/colors' as *;
+@use 'styles/font' as *;
 
 //default values
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  //default style-guide.md
-  font-size: 1rem;
-  font-family: Young Serif, Outfit, sans-serif;
-  font-weight: 400;
 }
 
 body {
   background-color: $eggshell;
 
-  //center main content
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @extend .body-regular;
 }
