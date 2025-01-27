@@ -15,7 +15,9 @@ tmp
 node_modules
 
 # IDEs and editors
-/.idea
+.idea
+.nx
+.vscode
 .project
 .classpath
 .c9/
